@@ -1,0 +1,16 @@
+<elements>
+    <element name="Raised" type="Feat" source="Customs" id="ID_CUSTOM_FEAT_RAISED">
+        <description>
+            <p>Either magically or by the will of some powerful entity, you have avoided death, or been given new life after you perished. This affects you in the following ways</p>
+            <ul>
+                <li>Your creature type is now Aberration or Undead (DM discretion)</li>
+                <li>You don't gain the benefits of traditional healing potions; you need to make special concoctions which you know how to brew</li>
+                <li>You don't need food, air or water to live</li>
+                <li>You need to ingest calcium-rich consumables to maintain your body, or your flesh will noticeably rot away and give off a foul stench. After 5 days, you'll start to rot and any creature standing within 10 feet of you will notice your smell; at 10 days this increases to 20 feet and your flesh will fall off your bones. If you go 3 months like this, you'll become a full skeleton</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You are an Aberration/Undead. You need to brew your own special healing potions. You don't need food, air or water, but need to ingest calcium; more than 5/10 days without it and you'll give off a foul stench in a 10/20 foot radius, and your flesh will noticeably fall off. 3 months of this and you'll have only your bones</description>
+        </sheet>
+    </element>
+</elements>

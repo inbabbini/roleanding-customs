@@ -1,0 +1,94 @@
+<elements>
+    <element name="Necklace of Protection" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_NECKLACE_OF_PROTECTION">
+        <description>
+            <p>A necklace which provides the user additional protection against harm.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Necklace</set>
+            <set name="slot">neck</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+        </setters>
+        <rules>
+            <stat name="ac:misc" value="1" />
+        </rules>
+    </element>
+    <element name="Ring of Ying-Yang" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_RING_OF_YING-YANG">
+        <description>
+            <p>While wearing this ring, you can breathe normally in any environment.</p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="slot">ring</set>
+            <set name="type">Ring</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
+    </element>
+    <element name="Ring of the Deep Temple" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_RING_OF_THE_DEEP_TEMPLE">
+        <description>
+            <p>Ring of dark, dull metal, so thin that it appears to be a ceremonial band, with no apparent markings except for a few small lines on its sides. It is always cold to the touch, even after being in contact with the body.</p>
+            <p>Properties: This ring allows you to breathe normally and have a swimming speed equal to your normal walking speed while underwater.</p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="slot">ring</set>
+            <set name="type">Ring</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
+    </element>
+    <element name="Mischief" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_MISCHIEF_WAND">
+        <description>
+            <p>This wand is 15cm long and has various smiles engraved on its base. You can point a creature withing 30 foot range, and that creature must make a Charisma saving throw. If it fails, roll a d6 to define the effect (1 minute).</p>
+            <ul>
+                <li>1 — Target is forced to smile for 1 minute. </li>
+                <li>2 — Target rips a big, loud and smelly fart. </li>
+                <li>3 — Target burps loudly, smelling like rotten fish. </li>
+                <li>4 — Target grabs food, drink or the closest object it has and trhows it in it's face. </li>
+                <li>5 — Target greatly insults the closest creature it has. </li>
+                <li>6 — Target slaps the closest creature it has (15ft radius).</li>
+            </ul>
+            <p class="indent">The wand has 7 charges and it regains 1d6 + 1 expended charges daily at dawn. If all charges are expended, roll 1d20. On a 1, the wand becomes UNSTABLE.</p>
+        </description>
+        <setters>
+            <set name="category">Wands</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="type">Wand</set>
+            <set name="rarity">Common</set>
+            <set name="charges">7</set>
+        </setters>
+    </element>
+    <element name="Tiger Dumax’s Handy Spice Belt" type="Magic Item" source="Xanathar’s Guide to Everything" id="ID_CUSTOM_ITEM_TIGER_DUMAX_HANDY_SPICE_BELT">		
+		<description>
+			<p>This belt pouch appears empty and has 10 charges. While holding the pouch, you can use an action to expend 1 of its charges, speak the name of any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal. The pouch regains 1d6 + 4 expended charges daily at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="charges">10</set>
+		</setters>
+	</element>
+    <element name="Gambler's Coin" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_GAMBLERS_COIN">
+        <description>
+            <p>This magical metallic coin bears a moon on one side and the number 1 on the other. As an action while holding or tossing the coin, you can cause one chosen face of the coin to take on the appearance of any shape you choose. The chosen face keeps that appearance for 20 seconds, after which it returns to it's previous shape.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
+</elements>

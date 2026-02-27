@@ -1,0 +1,114 @@
+<elements>
+	<element name="Ursine" type="Race" source="Custom Ursine" id="ID_CUSTOM_RACE_URSINE">
+			<description>
+				<html>&lt;p&gt;Fucking bears, man&lt;/p&gt;
+	&lt;p class="indent"&gt;Ursine's appearance is as varied as their attitudes.&lt;/p&gt;
+	&lt;h4&gt;URSINE TRAITS&lt;/h4&gt;
+	&lt;p&gt;You have the following racial traits.&lt;/p&gt;
+	&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increases.&lt;/em&gt;&lt;/strong&gt; When determining your character’s ability scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.&lt;/p&gt;
+	&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.&lt;/p&gt;
+	&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Creature Type.&lt;/em&gt;&lt;/strong&gt; You are a Humanoid.&lt;/p&gt;
+	&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; You are Medium. &lt;/p&gt;
+	&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Darkvision.&lt;/em&gt;&lt;/strong&gt; You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.&lt;/p&gt;
+	&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.&lt;/p&gt;
+	&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Bear's Talent.&lt;/em&gt;&lt;/strong&gt; You have proficiency in the Persuasion and Stealth skills. Also, you gain advantage on any Perception check that benefits your powerful sense of smell.&lt;/p&gt;
+	&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Bearskin.&lt;/em&gt;&lt;/strong&gt; You have tough, furry skin. When you aren't wearing armor, your base AC is 13 + Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.&lt;/p&gt;
+	&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Powerful Build.&lt;/em&gt;&lt;/strong&gt; You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.&lt;/p&gt;</html>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+				<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />
+				<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID" />
+				<grant type="Size" id="ID_SIZE_MEDIUM" />
+				<stat name="innate speed" value="30" bonus="base" />
+				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_SPEED" />
+				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARSKIN" />
+				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARS_TALENT" />
+				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_DARKVISION" />
+				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_POWERFUL_BUILD" />
+				<grant type="Grants" id="ID_INTERNAL_GRANTS_COUNTS_AS_URSINE" />
+			</rules>
+		</element>
+		
+		<element name="Speed" type="Racial Trait" source="Custom Ursine" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_SPEED">
+			<meta>
+				<parent>Ursine</parent>
+			</meta>
+			<description>
+				<html>&lt;p&gt;Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.&lt;/p&gt;</html>
+			</description>
+			<sheet display="false">
+				<description>Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.</description>
+			</sheet>
+			<rules>
+				<stat name="speed:climb" value="speed" bonus="base" />
+			</rules>
+		</element>
+		
+		<element name="Darkvision" type="Racial Trait" source="Custom Ursine" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_DARKVISION">
+			<meta>
+				<parent>Ursine</parent>
+			</meta>
+			<compendium display="false" />
+			<description>
+				<html>&lt;p&gt;You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.&lt;/p&gt;</html>
+			</description>
+			<sheet display="false">
+				<description>You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</description>
+			</sheet>
+			<rules>
+				<grant type="Vision" id="ID_VISION_DARKVISION" />
+			</rules>
+		</element>
+		
+		<element name="Bear's Talent" type="Racial Trait" source="Custom Ursine" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARS_TALENT">
+			<meta>
+				<parent>Ursine</parent>
+			</meta>
+			<description>
+				<html>&lt;p&gt;You have proficiency in the Persuasion and Stealth skills. Also, you gain advantage on any Perception check that benefits your powerful sense of smell. &lt;/p&gt;</html>
+			</description>
+			<sheet>
+				<description>You have proficiency in the Persuasion and Stealth skills. Also, you gain advantage on any Perception check that benefits your powerful sense of smell.</description>
+			</sheet>
+			<rules>
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+			</rules>
+		</element>
+		
+		<element name="Bearskin" type="Racial Trait" source="Custom Ursine" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARSKIN">
+			<meta>
+				<parent>Ursine</parent>
+			</meta>
+			<description>
+			<html>&lt;p&gt;You have tough, furry skin. When you aren't wearing armor, your base AC is 13 + Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.&lt;/p&gt;</html>
+			</description>
+			<sheet>
+				<description>When you aren't wearing armor, your base AC is 13 + Dex modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</description>
+			</sheet>
+			<rules>
+				<stat name="ac:natural-armor-ursine" value="13" bonus="base" />
+				<stat name="ac:natural-armor-ursine" value="dexterity:modifier" bonus="ability" />
+				<stat name="ac:calculation" value="ac:natural-armor-ursine" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Ursine)" />
+			</rules>
+		</element>
+		<element name="Powerful Build" type="Racial Trait" source="Custom Ursine" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_POWERFUL_BUILD">
+			<meta>
+				<parent>Ursine</parent>
+			</meta>
+			<description>
+			<html>&lt;p&gt;You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.&lt;/p&gt;</html>
+			</description>
+			<sheet>
+				<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+			</sheet>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+			</rules>
+		</element>
+		<element name="Ursine" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_URSINE">
+			<sheet display="false" />
+		</element>
+	</elements>
