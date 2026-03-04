@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Arkotropia" type="Feat" source="Custom" id="ID_FEAT_ARKOTROPIA">
+		<description>
+			<p>You unlock a dormant ancestral power—the strength of ancient mountain bears flows through your bloodline. This power manifests in two forms, both requiring careful use due to their physical and mental toll.</p>
+			<h5 class="caption">BEAR FORCE</h5>
+			<p>Once per turn, you can invoke ancestral bear strength as part of an ability check, attack roll, or saving throw. You can use your Bestial Form's statistics for that roll instead of your own. You can use this feature a number of times equal to your proficiency bonus per long rest.</p>
+			<h5 class="caption">ANIMALITY</h5>
+			<p>As an action, you can undergo a dangerous transformation into a giant bestial bear form. You can maintain this form for up to 10 minutes. While transformed, you gain the statistics of your Bestial Form. Your personality remains present but is heavily influenced by primal bear instincts. You cannot speak humanoid languages or cast spells while transformed. All equipment melds with your new form and provides no benefit.</p>
+			<p class="indent">When the transformation ends—either by choice, reaching 0 hit points, or the duration expiring—you revert to your original form with your previous hit point total. If the transformation ended from damage, any excess damage carries over to your original form.</p>
+			<p class="indent">Once you use this feature, you must finish a short rest before you can use it again.</p>
+			<p class="indent"><strong><em>Exhaustion Price.</em></strong> After the transformation ends, you must make a Constitution saving throw (DC 20) to resist the physical and mental strain. On a failure, you gain one level of exhaustion.</p>
+		</description>
+		<sheet action="Action" usage="Short Rest">
+			<description>Bear Force: Once per turn, use Bestial Form's stats for one check/attack/save ({{proficiency}}/long rest). Animality: Transform into giant bear form (10 min, 1/short rest), gain 1 exhaustion on failed CON ST (DC 20) when reverting.</description>
+		</sheet>
+	</element>
+</elements>
