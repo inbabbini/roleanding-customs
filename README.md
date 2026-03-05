@@ -39,7 +39,7 @@ This repository contains custom D&D 5e content organized by content type. Each f
 
 **(*)** This will only work if you have locally configured your local git to work with your Github user
 
-### Configure Git for Github
+## Configure Git for Github
 
 1. **Set your Git username and email** (for all commits on this machine):
    ```powershell
