@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Roleanding Customs</name>
+		<description>These are the custom index files for our TTRPG group's homebrew content.</description>
+		<author url="https://github.com/inbabbini/roleanding-customs">inbabbini</author>
+		<update version="0.0.1">
+			<file name="roleanding-customs.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/roleanding-customs.index" />
+		</update>
+	</info>
+	<files>
+        <!-- All sub index files maintained -->
+		<file name="classes.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/classes.index" />
+        <file name="feats.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/feats.index" />
+        <file name="items.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/items.index" />
+        <file name="races.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/races.index" />
+        <file name="spells.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/spells.index" />
+
+        <!-- All files maintained xml files -->
+	</files>
+</index>

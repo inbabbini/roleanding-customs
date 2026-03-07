@@ -23,8 +23,10 @@ This repository contains custom D&D 5e content organized by content type. Each f
 
 **Prerequisites:** You need to have a Github account and be added to this repository as a contributor. Ask me.
 
-1. Create a new branch for your changes
+0. Make sure your local main branch is updated
     - `cd $env:USERPROFILE\Docuemnts\5e Character Builder\custom\roleanding-customs`
+    - `git pull`
+1. Create a new branch for your changes    
     - `git checkout -b "your_branch_name"`
 2. Add or modify XML files in the appropriate content type folder. Make sure they work correctly by testing them in Aurora. Follow the guidelines stated in description to add your changes.
 3. Add your contents to a new commit 

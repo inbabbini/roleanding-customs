@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Classes</name>
+		<description>Custom class options for the game</description>
+		<author url="https://github.com/inbabbini/roleanding-customs">inbabbini</author>
+		<update version="0.0.1">
+			<file name="classes.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/classes.index" />
+		</update>
+	</info>
+	<files>	
+		<!-- <file name="source.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/source.xml" /> -->		
+		<!-- classes -->
+		<file name="fighter-hellish-knight-archetype.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/classes/fighter-hellish-knight-archetype.xml" />
+	</files>
+</index>

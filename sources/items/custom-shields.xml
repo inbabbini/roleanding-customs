@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+<!-- Menmonite Shield +2 -->
+	<element name="Menmonite Shield +2" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_ESCUDO_MENMONITA">
+		<description>
+			<p>This magical shield is remarkably powerful, granting a +2 bonus to AC. It bears the craftsmanship of infernal artificers and seems to hum with contained power.</p>
+			<h5 class="caption">DEPLOYMENT</h5>
+			<p>As a reaction, when you or an ally within 5 feet of you is targeted by a ranged attack or a damaging area effect, you can expand the shield to cover a wider area. Targets you choose within 5 feet of you gain half cover against ranged attacks, or +2 to their saving throws against the area effect until the start of your next turn.</p>
+			<h5 class="caption">VIBRANIUM CORE</h5>
+			<p>The material of this shield is incredibly resistant to impacts, absorbing nearly all the force of blows. You are immune to being knocked prone or pushed by attacks.</p>
+			<h5 class="caption">SHOCKWAVE</h5>
+			<p>As an action, you can activate the magnetic mechanism of this shield to slam its layers together, generating a shockwave in a 15-foot cone in front of you. Each creature in that area must make a Dexterity saving throw (DC 21). On a failed save, a creature is thrown 25 feet backward and knocked prone. If it strikes an obstacle, it takes 3d6 bludgeoning damage. This shield has 3 charges and regains 1d4 - 1 charges when you finish a long rest.</p>
+		</description>
+		<setters>
+            <set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+            <set name="type" addition="shield">Armor</set>
+            <set name="cost" currency="gp">0</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="2" bonus="enhancement" />
+		</rules>
+	</element>
+</elements>

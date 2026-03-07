@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<!-- Didgeridoo -->
+	<element name="Didgeridoo" type="Item" source="Custom" id="ID_CUSTOM_INSTRUMENT_DIDGERIDOO">
+		<supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>An ancient wind instrument with a distinctive tubular shape, the didgeridoo produces deep, resonant tones through circular breathing. Traditionally crafted from hollowed eucalyptus wood, this instrument carries cultural significance and requires patience and skill to master.</p>
+		</description>
+		<setters>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">12</set>
+			<set name="weight" lb="4">4 lbs.</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_CUSTOM_PROFICIENCY_TOOL_PROFICIENCY_DIDGERIDOO</set>
+		</setters>
+	</element>
+
+	<element name="Tool Proficiency (Didgeridoo)" type="Proficiency" source="Custom" id="ID_CUSTOM_PROFICIENCY_TOOL_PROFICIENCY_DIDGERIDOO">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>An ancient wind instrument with a distinctive tubular shape, the didgeridoo produces deep, resonant tones through circular breathing. Traditionally crafted from hollowed eucalyptus wood, this instrument carries cultural significance and requires patience and skill to master.</p>
+		</description>
+	</element>
+</elements>
