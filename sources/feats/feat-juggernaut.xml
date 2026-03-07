@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<element name="Juggernaut" type="Feat" source="Custom" id="ID_FEAT_JUGGERNAUT">
+	<element name="Juggernaut" type="Feat" source="Roleanding Customs" id="ID_FEAT_JUGGERNAUT">
 		<description>
 			<p>You have trained your body and reflexes to weather any assault. You gain the following benefits:</p>
 			<p class="indent"><strong><em>Unyielding Constitution.</em></strong> If you are not incapacitated, you can use your Constitution saving throw in place of any Dexterity saving throw you make against a spell or other harmful effect that affects you.</p>

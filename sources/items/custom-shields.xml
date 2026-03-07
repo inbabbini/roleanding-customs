@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 <!-- Menmonite Shield +2 -->
-	<element name="Menmonite Shield +2" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_ESCUDO_MENMONITA">
+	<element name="Menmonite Shield +2" type="Magic Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_ESCUDO_MENMONITA">
 		<description>
 			<p>This magical shield is remarkably powerful, granting a +2 bonus to AC. It bears the craftsmanship of infernal artificers and seems to hum with contained power.</p>
 			<h5 class="caption">DEPLOYMENT</h5>

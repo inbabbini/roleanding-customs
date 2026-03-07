@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<!-- Menmonite Armor +2 -->
-	<element name="Menmonite Armor +2" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_ARMADURA_PLACAS_MENMONITA">
+	<element name="Menmonite Armor +2" type="Magic Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_ARMADURA_PLACAS_MENMONITA">
 		<description>
 			<p>This magical plate armor is infused with runic energy, granting a +2 bonus to AC. The plates shine with a faint blueish glow, and electricity crackles faintly along their seams.</p>
 			<p class="indent">While wearing this armor, you have resistance to lightning damage.</p>
@@ -22,7 +22,7 @@
 	</element>
 
 	<!-- Festo's Armor -->
-	<element name="Festo's Armor" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_FESTO_ARMOR">
+	<element name="Festo's Armor" type="Magic Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_FESTO_ARMOR">
 		<description>
 			<p>This legendary armor was forged by Festo, the greatest master smith, and remains his most recent and masterful creation. The armor is sentient, with its own voice and consciousness, and it chooses who may wear it. Those deemed unworthy will find the armor refuses to function.</p>
 			<p class="indent">The armor appears as a perfectly black plate, gleaming like obsidian, with only a deep crimson gleam visible when caught in firelight. It adapts perfectly to the wearer's physique, forming a second skin of resilient metal that is flexible to the user yet shockingly resistant to all forms of damage. The armor grants a +2 bonus to AC.</p>

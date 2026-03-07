@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<element name="Thrower" type="Feat" source="Custom" id="ID_FEAT_THROWER">
+	<element name="Thrower" type="Feat" source="Roleanding Customs" id="ID_FEAT_THROWER">
 		<description>
 			<p>Your exceptional strength and size allow you to hurl other creatures with devastating effect.</p>
 			<p class="indent"><strong><em>Throw Attack.</em></strong> As an action, you can attempt to grapple a creature of your size or smaller. If you win the grapple contest and the creature fails to escape, you can throw it as part of the same action. The creature is hurled up to a distance in feet equal to double your Strength score.</p>

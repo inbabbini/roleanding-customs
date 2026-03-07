@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<!-- Didgeridoo -->
-	<element name="Didgeridoo" type="Item" source="Custom" id="ID_CUSTOM_INSTRUMENT_DIDGERIDOO">
+	<element name="Didgeridoo" type="Item" source="Roleanding Customs" id="ID_CUSTOM_INSTRUMENT_DIDGERIDOO">
 		<supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
 		<description>
 			<p>An ancient wind instrument with a distinctive tubular shape, the didgeridoo produces deep, resonant tones through circular breathing. Traditionally crafted from hollowed eucalyptus wood, this instrument carries cultural significance and requires patience and skill to master.</p>
@@ -15,7 +15,7 @@
 		</setters>
 	</element>
 
-	<element name="Tool Proficiency (Didgeridoo)" type="Proficiency" source="Custom" id="ID_CUSTOM_PROFICIENCY_TOOL_PROFICIENCY_DIDGERIDOO">
+	<element name="Tool Proficiency (Didgeridoo)" type="Proficiency" source="Roleanding Customs" id="ID_CUSTOM_PROFICIENCY_TOOL_PROFICIENCY_DIDGERIDOO">
 		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
 		<description>
 			<p>An ancient wind instrument with a distinctive tubular shape, the didgeridoo produces deep, resonant tones through circular breathing. Traditionally crafted from hollowed eucalyptus wood, this instrument carries cultural significance and requires patience and skill to master.</p>

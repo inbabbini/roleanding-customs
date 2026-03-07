@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<element name="Ursine" type="Race" source="Custom Ursine" id="ID_CUSTOM_RACE_URSINE">
+	<element name="Ursine" type="Race" source="Roleanding Customs" id="ID_CUSTOM_RACE_URSINE">
 			<description>
 				<html>&lt;p&gt;Fucking bears, man&lt;/p&gt;
 	&lt;p class="indent"&gt;Ursine's appearance is as varied as their attitudes.&lt;/p&gt;
@@ -31,7 +32,7 @@
 			</rules>
 		</element>
 		
-		<element name="Speed" type="Racial Trait" source="Custom Ursine" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_SPEED">
+		<element name="Speed" type="Racial Trait" source="Roleanding Customs" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_SPEED">
 			<meta>
 				<parent>Ursine</parent>
 			</meta>
@@ -46,7 +47,7 @@
 			</rules>
 		</element>
 		
-		<element name="Darkvision" type="Racial Trait" source="Custom Ursine" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_DARKVISION">
+		<element name="Darkvision" type="Racial Trait" source="Roleanding Customs" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_DARKVISION">
 			<meta>
 				<parent>Ursine</parent>
 			</meta>
@@ -62,7 +63,7 @@
 			</rules>
 		</element>
 		
-		<element name="Bear's Talent" type="Racial Trait" source="Custom Ursine" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARS_TALENT">
+		<element name="Bear's Talent" type="Racial Trait" source="Roleanding Customs" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARS_TALENT">
 			<meta>
 				<parent>Ursine</parent>
 			</meta>
@@ -78,7 +79,7 @@
 			</rules>
 		</element>
 		
-		<element name="Bearskin" type="Racial Trait" source="Custom Ursine" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARSKIN">
+		<element name="Bearskin" type="Racial Trait" source="Roleanding Customs" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARSKIN">
 			<meta>
 				<parent>Ursine</parent>
 			</meta>
@@ -94,7 +95,7 @@
 				<stat name="ac:calculation" value="ac:natural-armor-ursine" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Ursine)" />
 			</rules>
 		</element>
-		<element name="Powerful Build" type="Racial Trait" source="Custom Ursine" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_POWERFUL_BUILD">
+		<element name="Powerful Build" type="Racial Trait" source="Roleanding Customs" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_POWERFUL_BUILD">
 			<meta>
 				<parent>Ursine</parent>
 			</meta>

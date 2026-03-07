@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<!-- Hellish Knight Archetype -->
-	<element name="Hellish Knight" type="Archetype" source="Custom" id="ID_ARCHETYPE_HELLISH_KNIGHT">
+	<element name="Hellish Knight" type="Archetype" source="Roleanding Customs" id="ID_ARCHETYPE_HELLISH_KNIGHT">
 		<supports>Martial Archetype</supports>
 		<description>
 			<p>The Hellish Knight represents a fusion of martial mastery and infernal power, a fighter trained in the ancient ways of the demonic legions. Those who adopt this archetype combine devastating melee combat with the ability to channel infernal flames, becoming warriors whose very presence radiates heat and danger. Unlike traditional spellcasters, the Hellish Knight weaves fire magic into their fighting style, treating spellcasting as an extension of their combat prowess.</p>
@@ -24,7 +24,7 @@
 	</element>
 
 	<!-- 3rd Level: Hellish Knight -->
-    <element name="Hellish Knight" type="Archetype Feature" source="Custom" id="ID_ARCHETYPE_FEATURE_HELLISH_KNIGHT_PYROMANTIC_SPELLCASTING">
+    <element name="Hellish Knight" type="Archetype Feature" source="Roleanding Customs" id="ID_ARCHETYPE_FEATURE_HELLISH_KNIGHT_PYROMANTIC_SPELLCASTING">
         <description>
             <p>When you choose this archetype at 3rd level, you gain the ability to cast spells—but only fire-based spells—drawn from the infernal traditions. You channel the flames of the Nine Hells through your martial focus.</p>
             <p class="indent"><strong><em>Cantrips.</em></strong> You learn two cantrips of your choice from the pyromantic spell list. You learn an additional pyromantic cantrip of your choice at 10th level.</p>
@@ -95,7 +95,7 @@
     </element>
 
 	<!-- 3rd Level: Midas Touch -->
-	<element name="Midas Touch" type="Archetype Feature" source="Custom" id="ID_ARCHETYPE_FEATURE_HELLISH_KNIGHT_MIDAS_TOUCH">
+	<element name="Midas Touch" type="Archetype Feature" source="Roleanding Customs" id="ID_ARCHETYPE_FEATURE_HELLISH_KNIGHT_MIDAS_TOUCH">
 		<description>
 			<p>At 3rd level, you learn the infernal technique of manipulating inert materials—particularly metals—allowing you to reshape them to your will. This ancient practice is perfected by demonic weapon-smiths and masters of infernal warfare.</p>
 			<h5 class="caption">CONTINUOUS MANIPULATION LIMITS</h5>
@@ -131,7 +131,7 @@
 	</element>
 
 	<!-- 7th Level: Infernal Bond -->
-	<element name="Infernal Bond" type="Archetype Feature" source="Custom" id="ID_ARCHETYPE_FEATURE_HELLISH_KNIGHT_INFERNAL_BOND">
+	<element name="Infernal Bond" type="Archetype Feature" source="Roleanding Customs" id="ID_ARCHETYPE_FEATURE_HELLISH_KNIGHT_INFERNAL_BOND">
 		<description>
 			<p>At 7th level, your connection to infernal power deepens. You gain the following benefits:</p>
 			<p class="indent"><strong><em>Fire Mastery.</em></strong> You have resistance to fire damage. Additionally, when you cast a spell that deals fire damage, you add your spellcasting ability modifier ({{wisdom:modifier}}) to the damage rolled.</p>
@@ -143,7 +143,7 @@
 	</element>
 
 	<!-- 10th Level: Infernal Presence -->
-	<element name="Infernal Presence" type="Archetype Feature" source="Custom" id="ID_ARCHETYPE_FEATURE_HELLISH_KNIGHT_INFERNAL_PRESENCE">
+	<element name="Infernal Presence" type="Archetype Feature" source="Roleanding Customs" id="ID_ARCHETYPE_FEATURE_HELLISH_KNIGHT_INFERNAL_PRESENCE">
 		<description>
 			<p>At 10th level, the infernal power coursing through you becomes visible to all. Your very presence becomes an extension of your combat mastery.</p>
 			<h5 class="caption">BLAZING AURA</h5>
@@ -157,7 +157,7 @@
 	</element>
 
 	<!-- 15th Level: Infernal Sentinel -->
-	<element name="Infernal Sentinel" type="Archetype Feature" source="Custom" id="ID_ARCHETYPE_FEATURE_HELLISH_KNIGHT_INFERNAL_SENTINEL">
+	<element name="Infernal Sentinel" type="Archetype Feature" source="Roleanding Customs" id="ID_ARCHETYPE_FEATURE_HELLISH_KNIGHT_INFERNAL_SENTINEL">
 		<description>
 			<p>At 15th level, your mastery of infernal combat reaches its apex, and you become a sentinel of hellish power on the battlefield.</p>
 			<h5 class="caption">OPPORTUNITY ATTACK MASTERY</h5>

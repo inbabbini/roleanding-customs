@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>	
-	<element name="Crossbreed Celestial/Fiend" type="Race" source="Custom" id="ID_RACE_CROSSBREED_CELESTIAL_FIEND">
+	<element name="Crossbreed Celestial/Fiend" type="Race" source="Roleanding Customs" id="ID_RACE_CROSSBREED_CELESTIAL_FIEND">
 		<description>
 			<p class="flavor">You are the rare and impossible offspring of celestial and infernal bloodlines—a being whose very existence defies the cosmic war that has raged across the planes since time immemorial. Warred against by both sides and misunderstood by most, you must navigate a world that sees you as either abomination or curiosity. Within you burns the conflict of opposing natures, a constant struggle between divine light and hellish flame that shapes not only your appearance but your very soul.</p>
 			<h4>MARKED BY CONTRADICTION</h4>
@@ -49,7 +49,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LONGEVITY" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase" type="Racial Trait" source="Custom" id="ID_RACIAL_TRAIT_CROSSBREED_ABILITY_SCORE_INCREASE">
+	<element name="Ability Score Increase" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_CROSSBREED_ABILITY_SCORE_INCREASE">
 		<description>
 			<p>You increase one ability score by 2 and a different ability score by 1.</p>
 		</description>
@@ -58,7 +58,7 @@
 			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
 		</rules>
 	</element>
-	<element name="Duplicity" type="Racial Trait" source="Custom" id="ID_RACIAL_TRAIT_DUPLICITY">
+	<element name="Duplicity" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_DUPLICITY">
 		<description>
 			<p>You have learned to manifest your dual nature physically, separating into two distinct entities. As a bonus action, you can split your form into your celestial and infernal aspects as two separate creatures within 5 feet of you.</p>
 			<h5 class="caption">MANIFESTATION MECHANICS</h5>
@@ -88,7 +88,7 @@
 			<description>Split into celestial &amp; infernal manifestations (5 ft apart) with half your HP each, independent movement, 300-ft tether. Shared action economy except movement, only one can concentrate. Celestial: Persuasion advantage, charm/fear resist, ally resist 10ft aura. Infernal: Intimidation and breaking advantage, melee +1d4 fire damage. Duration: 1 min (combat) or 1 hour (non-combat).</description>
 		</sheet>
 	</element>
-	<element name="Longevity" type="Racial Trait" source="Custom" id="ID_RACIAL_TRAIT_LONGEVITY">
+	<element name="Longevity" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_LONGEVITY">
 		<description>
 			<p>Your centuries of existence have provided you with extensive knowledge and learning. You gain proficiency in two skills of your choice from the following list: Insight, History, Religion, Deception, Intimidation, Persuasion, and Survival.</p>
 		</description>

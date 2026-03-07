@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<!-- Standard Cannon Ammunition -->
-	<element name="Cannon Ammunition (12 rounds)" type="Wondrous Item" source="Custom" id="ID_CUSTOM_ITEM_CANNON_AMMO_STANDARD">
+	<element name="Cannon Ammunition (12 rounds)" type="Wondrous Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_CANNON_AMMO_STANDARD">
 		<description>
 			<p>A set of 12 standard metal rounds for use with the Cannon Menmonita. These are basic ammunition with no special properties beyond their ability to be fired from the cannon.</p>
 		</description>
@@ -14,7 +14,7 @@
 	</element>
 
 	<!-- Lightning Rain Ammunition (Amarilla) -->
-	<element name="Cannon Ammunition - Lightning Rain" type="Wondrous Item" source="Custom" id="ID_CUSTOM_ITEM_CANNON_AMMO_LIGHTNING_RAIN">
+	<element name="Cannon Ammunition - Lightning Rain" type="Wondrous Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_CANNON_AMMO_LIGHTNING_RAIN">
 		<description>
 			<p><em>Special Ammunition</em></p>
 			<p>When this yellow-tinged cannon round hits a target, it detonates in a brilliant display of lightning. Each creature in a 15-foot radius of the impact must make a Dexterity saving throw. On a failed save, a creature takes 6d6 lightning damage, or half as much on a successful one.</p>
@@ -27,7 +27,7 @@
 	</element>
 
 	<!-- Marked Lightning Ammunition (Amarilla) -->
-	<element name="Cannon Ammunition - Marked Lightning" type="Wondrous Item" source="Custom" id="ID_CUSTOM_ITEM_CANNON_AMMO_MARKED_LIGHTNING">
+	<element name="Cannon Ammunition - Marked Lightning" type="Wondrous Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_CANNON_AMMO_MARKED_LIGHTNING">
 		<description>
 			<p><em>Special Ammunition</em></p>
 			<p>This golden round marks a target and calls down a lightning strike. The creature hit by this ammunition is marked, and a massive lightning bolt strikes it on your next turn (no action required). The marked creature takes 8d6 lightning damage, and cannot be marked again until you finish a short rest.</p>
@@ -40,7 +40,7 @@
 	</element>
 
 	<!-- Death Explosion Ammunition (Negra) -->
-	<element name="Cannon Ammunition - Detonation" type="Wondrous Item" source="Custom" id="ID_CUSTOM_ITEM_CANNON_AMMO_DETONATION">
+	<element name="Cannon Ammunition - Detonation" type="Wondrous Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_CANNON_AMMO_DETONATION">
 		<description>
 			<p><em>Special Ammunition</em></p>
 			<p>This black round creates a massive explosion on impact. All creatures in a 15-foot radius must make a Dexterity saving throw, taking 8d6 bludgeoning damage on a failed save (half on success). Those that fail are also knocked back 15 feet and knocked prone.</p>
@@ -53,7 +53,7 @@
 	</element>
 
 	<!-- Golem Summoning Ammunition (Verde) -->
-	<element name="Cannon Ammunition - Golem Summoning" type="Wondrous Item" source="Custom" id="ID_CUSTOM_ITEM_CANNON_AMMO_GOLEM">
+	<element name="Cannon Ammunition - Golem Summoning" type="Wondrous Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_CANNON_AMMO_GOLEM">
 		<description>
 			<p><em>Special Ammunition</em></p>
 			<p>When fired, this green round detonates in a burst of dark magic. A bone golem is summoned in an unoccupied space within 10 feet of the impact. The golem acts on your turn and obeys your commands. It remains for 1 hour or until reduced to 0 hit points, after which it crumbles to dust. Once this ammunition is used, you cannot use this effect again until you finish a long rest.</p>
@@ -66,7 +66,7 @@
 	</element>
 
 	<!-- Napalm Ammunition (Roja) -->
-	<element name="Cannon Ammunition - Napalm Inferno" type="Wondrous Item" source="Custom" id="ID_CUSTOM_ITEM_CANNON_AMMO_NAPALM">
+	<element name="Cannon Ammunition - Napalm Inferno" type="Wondrous Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_CANNON_AMMO_NAPALM">
 		<description>
 			<p><em>Special Ammunition</em></p>
 			<p>This crimson round ignites into a devastating inferno on impact. Each creature in a 15-foot radius must make a Dexterity saving throw, taking 8d6 fire damage on a failed save (half on success). The affected area becomes difficult terrain covered in flames for 1 minute.</p>
@@ -79,7 +79,7 @@
 	</element>
 
 	<!-- Mystery Ammunition (Azul) -->
-	<element name="Cannon Ammunition - Unknown" type="Wondrous Item" source="Custom" id="ID_CUSTOM_ITEM_CANNON_AMMO_UNKNOWN">
+	<element name="Cannon Ammunition - Unknown" type="Wondrous Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_CANNON_AMMO_UNKNOWN">
 		<description>
 			<p><em>Special Ammunition</em></p>
 			<p>This blue-hued round's properties remain mysterious. When fired, the wielder should consult with the Dungeon Master regarding its effects, as its true power has yet to be fully discovered or documented.</p>

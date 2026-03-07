@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<element name="Mateador" type="Feat" source="Custom" id="ID_FEAT_MATEADOR">
+	<element name="Mateador" type="Feat" source="Roleanding Customs" id="ID_FEAT_MATEADOR">
 		<description>
 			<p>You have mastered the ancestral art of mate infusion, using carefully selected herbs and preparation techniques to create beverages with powerful beneficial effects.</p>
 			<p class="indent"><strong><em>Mate Preparation.</em></strong> While taking a short or long rest, you can prepare a mate round. You must have access to special herbs and water to do so. Each mate round can benefit up to {{proficiency}} creatures. Each effect has its own duration and requirements.</p>

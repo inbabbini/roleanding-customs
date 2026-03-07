@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<!-- Menmonite Warhammer +2 -->
-	<element name="Menmonite Warhammer +2" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_WARHAMMER_MENMONITA">
+	<element name="Menmonite Warhammer +2" type="Magic Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_WARHAMMER_MENMONITA">
 		<description>
 			<p>This magical warhammer is a weapon of menmonite craft, radiating a faint electrical glow. It grants a +2 bonus to attack and damage rolls made with this weapon.</p>
 			<h5 class="caption">ENERGETIC SPINES</h5>
@@ -23,7 +23,7 @@
 	</element>
 
 	<!-- Menmonite Cannon +1 -->
-	<element name="Menmonite Cannon +1" type="Magic Item" source="Custom" id="ID_CUSTOM_ITEM_CANNON_MENMONITA">
+	<element name="Menmonite Cannon +1" type="Magic Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_CANNON_MENMONITA">
         <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY</supports>
 		<description>
 			<p>This magical cannon is a martial ranged weapon, expertly crafted with menmonite metallurgy. It grants a +1 bonus to attack and damage rolls made with this weapon.</p>

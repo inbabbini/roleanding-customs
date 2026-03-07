@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<element name="Arkotropia" type="Feat" source="Custom" id="ID_FEAT_ARKOTROPIA">
+	<element name="Arkotropia" type="Feat" source="Roleanding Customs" id="ID_FEAT_ARKOTROPIA">
 		<description>
 			<p>You unlock a dormant ancestral power—the strength of ancient mountain bears flows through your bloodline. This power manifests in two forms, both requiring careful use due to their physical and mental toll.</p>
 			<h5 class="caption">BEAR FORCE</h5>

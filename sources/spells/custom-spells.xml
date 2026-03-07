@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<!-- Red-Flame Blade -->
-	<element name="Red-Flame Blade" type="Spell" source="Custom" id="ID_SPELL_RED_FLAME_BLADE">
+	<element name="Red-Flame Blade" type="Spell" source="Roleanding Customs" id="ID_SPELL_RED_FLAME_BLADE">
 		<supports>Wizard, Sorcerer, Pyromantic</supports>
 		<description>
 			<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and red fire leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.</p>
@@ -24,7 +24,7 @@
 	</element>
 
 	<!-- Explosive Jumps -->
-	<element name="Explosive Jumps" type="Spell" source="Custom" id="ID_SPELL_EXPLOSIVE_JUMPS">
+	<element name="Explosive Jumps" type="Spell" source="Roleanding Customs" id="ID_SPELL_EXPLOSIVE_JUMPS">
 		<supports>Wizard, Sorcerer, Pyromantic</supports>
 		<description>
 			<p>Your jumping distance is tripled as you conjure fiery explosions from your feet and palms that propel you in the air.</p>
@@ -42,7 +42,7 @@
 	</element>
 
 	<!-- Explosive Step -->
-	<element name="Explosive Step" type="Spell" source="Custom" id="ID_SPELL_EXPLOSIVE_STEP">
+	<element name="Explosive Step" type="Spell" source="Roleanding Customs" id="ID_SPELL_EXPLOSIVE_STEP">
 		<supports>Wizard, Sorcerer, Pyromantic</supports>
 		<description>
 			<p>You conjure a fiery ball and detonate it near yourself to propel you into the air, targeting a landing space you can see up to 30 feet away.</p>
@@ -60,7 +60,7 @@
 	</element>
 
 	<!-- Scorching Earth -->
-	<element name="Scorching Earth" type="Spell" source="Custom" id="ID_SPELL_SCORCHING_EARTH">
+	<element name="Scorching Earth" type="Spell" source="Roleanding Customs" id="ID_SPELL_SCORCHING_EARTH">
 		<supports>Wizard, Sorcerer, Pyromantic</supports>
 		<description>
 			<p>Choose a point you can see on the ground within range. A fire geyser erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes 3d12 fire damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared away. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.</p>
@@ -81,7 +81,7 @@ At Higher Levels: Increase damage by 1d12 for each slot level above 3rd.</set>
 	</element>
 
 	<!-- Fire Form -->
-	<element name="Fire Form" type="Spell" source="Custom" id="ID_SPELL_FIRE_FORM">
+	<element name="Fire Form" type="Spell" source="Roleanding Customs" id="ID_SPELL_FIRE_FORM">
 		<supports>Wizard, Sorcerer, Pyromantic</supports>
 		<description>
 			<p>Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.</p>
@@ -102,7 +102,7 @@ Whenever a creature within 5 feet of you hits you with a melee attack, the flame
 	</element>
 
 	<!-- Fire Syphon -->
-	<element name="Fire Syphon" type="Spell" source="Custom" id="ID_SPELL_FIRE_SYPHON">
+	<element name="Fire Syphon" type="Spell" source="Roleanding Customs" id="ID_SPELL_FIRE_SYPHON">
 		<supports>Wizard, Sorcerer, Pyromantic</supports>
 		<description>
 			<p>When a creature casts a spell or makes an attack that would deal fire damage, and the caused effect is inside your range, you can attempt to absorb the fire damage caused by it, negating it.</p>
@@ -126,7 +126,7 @@ If the creature makes an attack or creates an area of effect dealing fire damage
 	</element>
 
 	<!-- Fiery Weapon -->
-	<element name="Fiery Weapon" type="Spell" source="Custom" id="ID_SPELL_FIERY_WEAPON">
+	<element name="Fiery Weapon" type="Spell" source="Roleanding Customs" id="ID_SPELL_FIERY_WEAPON">
 		<supports>Wizard, Sorcerer, Pyromantic</supports>
 		<description>
 			<p>You touch a weapon and imbue it with fiery energy. Until the spell ends, it emits bright light in a 20-foot radius and dim light in an additional 20 feet. In addition, it becomes a magic weapon and weapon attacks made with it deal an extra 2d8 fire damage on a hit for the duration.</p>
@@ -147,7 +147,7 @@ At Higher Levels: When you cast this spell using a spell slot of 4th level or hi
 	</element>
 
 	<!-- Flame Strike -->
-	<element name="Flame Strike" type="Spell" source="Custom" id="ID_SPELL_FLAME_STRIKE">
+	<element name="Flame Strike" type="Spell" source="Roleanding Customs" id="ID_SPELL_FLAME_STRIKE">
 		<supports>Wizard, Sorcerer, Pyromantic</supports>
 		<description>
 			<p>A vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw, taking 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one.</p>
@@ -168,7 +168,7 @@ At Higher Levels: When you cast this spell using a spell slot of 5th level or hi
 	</element>
 
 	<!-- Exploding Flames -->
-	<element name="Exploding Flames" type="Spell" source="Custom" id="ID_SPELL_EXPLODING_FLAMES">
+	<element name="Exploding Flames" type="Spell" source="Roleanding Customs" id="ID_SPELL_EXPLODING_FLAMES">
 		<supports>Wizard, Sorcerer, Pyromantic</supports>
 		<description>
 			<p>When another creature casts a fire-based spell, makes an attack, or otherwise creates an area of effect that deals fire damage within range, you can use your reaction to infuse that fire with your own fiery energy, violently expanding the flames created.</p>
