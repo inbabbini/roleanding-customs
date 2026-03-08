@@ -10,12 +10,10 @@
 	</info>
 	<files>
         <!-- All sub index files maintained -->
-		<file name="classes.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/classes.index" />
-        <file name="feats.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/feats.index" />
-        <file name="items.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/items.index" />
-        <file name="races.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/races.index" />
-        <file name="spells.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/spells.index" />
-
-        <!-- All files maintained xml files -->
+		<file name="classes.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/classes.index" />
+        <file name="feats.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/feats.index" />
+        <file name="items.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/items.index" />
+        <file name="races.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/races.index" />
+        <file name="spells.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/spells.index" />
 	</files>
 </index>
