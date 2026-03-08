@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Arkotropia Feat</name>
+		<update version="1.0.0">
+			<file name="feat-arkotropia.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-arkotropia.xml" />
+		</update>
+	</info>
 	<element name="Arkotropia" type="Feat" source="Roleanding Customs" id="ID_FEAT_ARKOTROPIA">
 		<description>
 			<p>You unlock a dormant ancestral power—the strength of ancient mountain bears flows through your bloodline. This power manifests in two forms, both requiring careful use due to their physical and mental toll.</p>

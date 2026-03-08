@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Items - Miscellaneous</name>
+		<update version="1.0.0">
+			<file name="items-misc.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/items-misc.xml" />
+		</update>
+	</info>
     <element name="Necklace of Protection" type="Magic Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_NECKLACE_OF_PROTECTION">
         <description>
             <p>A necklace which provides the user additional protection against harm.</p>

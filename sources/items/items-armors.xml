@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Items - Armors</name>
+		<update version="1.0.0">
+			<file name="items-armors.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/items-armors.xml" />
+		</update>
+	</info>
 	<!-- Menmonite Armor +2 -->
 	<element name="Menmonite Armor +2" type="Magic Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_ARMADURA_PLACAS_MENMONITA">
 		<description>

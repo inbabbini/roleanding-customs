@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Spells</name>
+		<update version="1.0.0">
+			<file name="spells.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/spells/spells.xml" />
+		</update>
+	</info>
 	<!-- Red-Flame Blade -->
 	<element name="Red-Flame Blade" type="Spell" source="Roleanding Customs" id="ID_SPELL_RED_FLAME_BLADE">
 		<supports>Wizard, Sorcerer, Pyromantic</supports>

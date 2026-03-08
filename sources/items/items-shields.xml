@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Items - Shields</name>
+		<update version="1.0.0">
+			<file name="items-shields.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/items-shields.xml" />
+		</update>
+	</info>
 <!-- Menmonite Shield +2 -->
 	<element name="Menmonite Shield +2" type="Magic Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_ESCUDO_MENMONITA">
 		<description>

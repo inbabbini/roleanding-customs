@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Raised Feat</name>
+		<update version="1.0.0">
+			<file name="feat-raised.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-raised.xml" />
+		</update>
+	</info>
     <element name="Raised" type="Feat" source="Roleanding Customs" id="ID_CUSTOM_FEAT_RAISED">
         <description>
             <p>Either magically or by the will of some powerful entity, you have avoided death, or been given new life after you perished. This affects you in the following ways</p>

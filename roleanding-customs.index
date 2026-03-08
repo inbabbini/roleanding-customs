@@ -12,7 +12,7 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/source.xml" />		
 		
 		<!-- classes -->
-		<file name="fighter-hellish-knight-archetype.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/classes/fighter-hellish-knight-archetype.xml" />
+		<file name="class-fighter-archetype-hellish-knight.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/classes/class-fighter-archetype-hellish-knight.xml" />
 
 		<!-- feats -->
 		<file name="feat-arkotropia.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-arkotropia.xml" />
@@ -25,17 +25,17 @@
         <file name="feat-thrower.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-thrower.xml" />
 
 		<!-- items -->
-        <file name="custom-armors.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/custom-armors.xml" />
-        <file name="custom-instruments.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/custom-instruments.xml" />
-        <file name="custom-items.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/custom-items.xml" />
-        <file name="custom-shields.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/custom-shields.xml" />		
-        <file name="custom-weapons.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/custom-weapons.xml" />
+        <file name="items-armors.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/items-armors.xml" />
+        <file name="items-instruments.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/items-instruments.xml" />
+        <file name="items-misc.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/items-misc.xml" />
+        <file name="items-shields.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/items-shields.xml" />		
+        <file name="items-weapons.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/items-weapons.xml" />
 
 		<!-- Races -->
         <file name="race-crossbreed-celestial-fiend.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/races/race-crossbreed-celestial-fiend.xml" />
         <file name="race-ursine.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/races/race-ursine.xml" />
 
 		<!-- Spells -->
-        <file name="custom-spells.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/spells/custom-spells.xml" />
+        <file name="spells.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/spells/spells.xml" />
 	</files>
 </index>

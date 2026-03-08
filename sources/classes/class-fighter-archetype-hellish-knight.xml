@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Hellish Knight Archetype</name>
+		<update version="1.0.0">
+			<file name="class-fighter-archetype-hellish-knight.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/classes/class-fighter-archetype-hellish-knight.xml" />
+		</update>
+	</info>
 	<!-- Hellish Knight Archetype -->
 	<element name="Hellish Knight" type="Archetype" source="Roleanding Customs" id="ID_ARCHETYPE_HELLISH_KNIGHT">
 		<supports>Martial Archetype</supports>

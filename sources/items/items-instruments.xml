@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Items - Instruments</name>
+		<update version="1.0.0">
+			<file name="items-instruments.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/items-instruments.xml" />
+		</update>
+	</info>
 	<!-- Didgeridoo -->
 	<element name="Didgeridoo" type="Item" source="Roleanding Customs" id="ID_CUSTOM_INSTRUMENT_DIDGERIDOO">
 		<supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>

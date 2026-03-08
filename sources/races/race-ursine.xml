@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Ursine Race</name>
+		<update version="1.0.0">
+			<file name="race-ursine.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/races/race-ursine.xml" />
+		</update>
+	</info>
 	<element name="Ursine" type="Race" source="Roleanding Customs" id="ID_CUSTOM_RACE_URSINE">
 			<description>
 				<html>&lt;p&gt;Ursines are proud, strong, and independent beings descended from powerful bears. They possess a natural affinity for the wild and a profound respect for nature and tradition.&lt;/p&gt;

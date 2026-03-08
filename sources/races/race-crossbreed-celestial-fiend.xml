@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>	
+	<info>
+		<name>Crossbreed Celestial/Fiend Race</name>
+		<update version="1.0.0">
+			<file name="race-crossbreed-celestial-fiend.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/races/race-crossbreed-celestial-fiend.xml" />
+		</update>
+	</info>
 	<element name="Crossbreed Celestial/Fiend" type="Race" source="Roleanding Customs" id="ID_RACE_CROSSBREED_CELESTIAL_FIEND">
 		<description>
 			<p class="flavor">You are the rare and impossible offspring of celestial and infernal bloodlines—a being whose very existence defies the cosmic war that has raged across the planes since time immemorial. Warred against by both sides and misunderstood by most, you must navigate a world that sees you as either abomination or curiosity. Within you burns the conflict of opposing natures, a constant struggle between divine light and hellish flame that shapes not only your appearance but your very soul.</p>
