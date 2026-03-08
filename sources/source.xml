@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="source.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/source.xml" />
 		</update>
 	</info>
 	<element name="Roleanding Customs" type="Source" source="Roleanding Customs" id="ID_CUSTOM_ROLEANDING_CUSTOMS">
