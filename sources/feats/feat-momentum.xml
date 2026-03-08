@@ -1,27 +1,30 @@
-<element name="Momentum" type="Feat" source="Homebrew - Ahman" id="ID_AHMAN_FEAT_MOMENTUM">
-	<description>
-		<p>You have mastered the art of stillness to such a degree that your body obeys thought without delay. By entering a state of perfect calm, you unleash explosive motion.</p>
-		<p><strong>Prerequisite:</strong> Strength 15 or higher, Dexterity 15 or higher, 16th level or higher.</p>
-		<ul>
-			<li>As a bonus action, you can enter a state of Momentum. This state lasts for 1 minute and requires concentration (as if concentrating on a spell). It does not count as a spell.</li>
-			<li>While Momentum is active, you gain the benefits of the <i>haste</i> spell, targeting only yourself. When Momentum ends, you suffer the lethargy effect as normal.</li>
-			<li>While Momentum is active, you ignore difficult terrain for all movement.</li>
-			<li>You can use Momentum twice, and you regain all expended uses when you finish a long rest.</li>
-		</ul>
-		<p><strong>Meditative Focus (Special):</strong> If you spend 1 uninterrupted hour meditating, or complete a short rest in calm focus, you awaken heightened spatial awareness. The next time you activate Momentum before completing another long rest, you gain blindsight out to a range of 15 feet for the duration. If you use Momentum again, you must meditate again to gain this benefit.</p>
-	</description>
-	<sheet>
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>	
+	<element name="Momentum" type="Feat" source="Roleanding Customs" id="ID_FEAT_MOMENTUM">
 		<description>
-		Bonus Action: Enter Momentum for 1 minute (concentration). Gain the benefits of haste (self only). Ignore difficult terrain. 
-		After it ends, suffer lethargy as normal.
-		
-		2 uses per long rest.
-		
-		Special: If you meditate 1 hour or complete a short rest in calm focus, your next Momentum grants Blindsight 15 ft for its duration. This benefit is consumed when Momentum is used.
+			<p>You have mastered the art of stillness to such a degree that your body obeys thought without delay. By entering a state of perfect calm, you unleash explosive motion.</p>
+			<p><strong>Prerequisite:</strong> Strength 15 or higher, Dexterity 15 or higher, 16th level or higher.</p>
+			<ul>
+				<li>As a bonus action, you can enter a state of Momentum. This state lasts for 1 minute and requires concentration (as if concentrating on a spell). It does not count as a spell.</li>
+				<li>While Momentum is active, you gain the benefits of the <i>haste</i> spell, targeting only yourself. When Momentum ends, you suffer the lethargy effect as normal.</li>
+				<li>While Momentum is active, you ignore difficult terrain for all movement.</li>
+				<li>You can use Momentum twice, and you regain all expended uses when you finish a long rest.</li>
+			</ul>
+			<p><strong>Meditative Focus (Special):</strong> If you spend 1 uninterrupted hour meditating, or complete a short rest in calm focus, you awaken heightened spatial awareness. The next time you activate Momentum before completing another long rest, you gain blindsight out to a range of 15 feet for the duration. If you use Momentum again, you must meditate again to gain this benefit.</p>
 		</description>
-	</sheet>
-	<rules>
-		<grant type="Spell" id="ID_PHB_SPELL_HASTE" />
-	</rules>
-</element>
+		<sheet>
+			<description>
+			Bonus Action: Enter Momentum for 1 minute (concentration). Gain the benefits of haste (self only). Ignore difficult terrain. 
+			After it ends, suffer lethargy as normal.
+			
+			2 uses per long rest.
+			
+			Special: If you meditate 1 hour or complete a short rest in calm focus, your next Momentum grants Blindsight 15 ft for its duration. This benefit is consumed when Momentum is used.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HASTE" />
+		</rules>
+	</element>
+</elements>
 

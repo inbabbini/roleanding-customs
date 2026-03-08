@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Classes</name>
-		<description>Custom class options for the game</description>
+		<name>Races</name>
+		<description>Custom race options for the game</description>
 		<author url="https://github.com/inbabbini/roleanding-customs">inbabbini</author>
 		<update version="0.0.1">
 			<file name="races.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/races.index" />
