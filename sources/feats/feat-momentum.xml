@@ -13,14 +13,7 @@
 			<p><strong>Meditative Focus (Special):</strong> If you spend 1 uninterrupted hour meditating, or complete a short rest in calm focus, you awaken heightened spatial awareness. The next time you activate Momentum before completing another long rest, you gain blindsight out to a range of 15 feet for the duration. If you use Momentum again, you must meditate again to gain this benefit.</p>
 		</description>
 		<sheet>
-			<description>
-			Bonus Action: Enter Momentum for 1 minute (concentration). Gain the benefits of haste (self only). Ignore difficult terrain. 
-			After it ends, suffer lethargy as normal.
-			
-			2 uses per long rest.
-			
-			Special: If you meditate 1 hour or complete a short rest in calm focus, your next Momentum grants Blindsight 15 ft for its duration. This benefit is consumed when Momentum is used.
-			</description>
+			<description>Bonus Action: Enter Momentum for 1 minute (concentration). Gain the benefits of haste (self only). Ignore difficult terrain. After it ends, suffer lethargy as normal. 2 uses per long rest. Special: If you meditate 1 hour or complete a short rest in calm focus, your next Momentum grants Blindsight 15 ft for its duration. This benefit is consumed when Momentum is used.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_HASTE" />

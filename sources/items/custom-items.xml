@@ -67,7 +67,7 @@
             <set name="charges">7</set>
         </setters>
     </element>
-    <element name="Tiger Dumax’s Handy Spice Belt" type="Magic Item" source="Xanathar’s Guide to Everything" id="ID_CUSTOM_ITEM_TIGER_DUMAX_HANDY_SPICE_BELT">		
+    <element name="Tiger Dumax's Handy Spice Belt" type="Magic Item" source="Roleanding Customs" id="ID_CUSTOM_ITEM_TIGER_DUMAX_HANDY_SPICE_BELT">
 		<description>
 			<p>This belt pouch appears empty and has 10 charges. While holding the pouch, you can use an action to expend 1 of its charges, speak the name of any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal. The pouch regains 1d6 + 4 expended charges daily at dawn.</p>
 		</description>
