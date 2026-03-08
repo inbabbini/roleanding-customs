@@ -4,7 +4,7 @@
 		<name>Roleanding Customs</name>
 		<description>These are the custom index files for our TTRPG group's homebrew content.</description>
 		<author url="https://github.com/inbabbini/roleanding-customs">inbabbini</author>
-		<update version="0.0.1">
+		<update version="1.0.0">
 			<file name="roleanding-customs.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/roleanding-customs.index" />
 		</update>
 	</info>
