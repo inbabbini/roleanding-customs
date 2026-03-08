@@ -8,7 +8,7 @@
 	<element name="Roleanding Customs" type="Source" source="Roleanding Customs" id="ID_CUSTOM_ROLEANDING_CUSTOMS">
 		<description>
 			<p><strong>The Roleanding custom source for homebrew content</strong></p>
-			<p><i>Roleanding Customs</i> is an essential pack of homebrew content for Dungeons &amp; Dragons players in our TTRPG group.</p>
+			<p><i>Roleanding Customs</i> is an essential pack of homebrew content for DnD players in our TTRPG group.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">RC</set>
