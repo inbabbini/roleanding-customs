@@ -5,7 +5,7 @@
 		<description>Custom spell options for the game</description>
 		<author url="https://github.com/inbabbini/roleanding-customs">inbabbini</author>
 		<update version="0.0.1">
-			<file name="spells.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/spells.index" />
+			<file name="spells.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/spells.index" />
 		</update>
 	</info>
 	<files>	

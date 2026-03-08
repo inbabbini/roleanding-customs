@@ -5,7 +5,7 @@
 		<description>Custom feat options for the game</description>
 		<author url="https://github.com/inbabbini/roleanding-customs">inbabbini</author>
 		<update version="0.0.1">
-			<file name="feats.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/feats.index" />
+			<file name="feats.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/feats.index" />
 		</update>
 	</info>
 	<files>	

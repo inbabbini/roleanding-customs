@@ -5,7 +5,7 @@
 		<description>Custom class options for the game</description>
 		<author url="https://github.com/inbabbini/roleanding-customs">inbabbini</author>
 		<update version="0.0.1">
-			<file name="classes.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/.indexes/classes.index" />
+			<file name="classes.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/classes.index" />
 		</update>
 	</info>
 	<files>	
