@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="source.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/source.xml" />
 		</update>
 	</info>
@@ -14,7 +14,7 @@
 			<set name="abbreviation">RC</set>
 			<set name="url">https://github.com/inbabbini/roleanding-customs</set>
 			<set name="image">https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/roleanding.PNG</set>
-			<set name="errata"></set>
+			<set name="errata">https://media.wizards.com/2020/dnd/downloads/PH-Errata.pdf</set>
 			<set name="author" abbreviation="Roleanding" url="https://github.com/inbabbini/roleanding-customs">Roleanding</set>
 			<set name="official">false</set>
 			<set name="core">false</set>
