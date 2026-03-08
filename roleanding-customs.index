@@ -9,11 +9,33 @@
 		</update>
 	</info>
 	<files>
-        <!-- All sub index files maintained -->
-		<file name="classes.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/classes.index" />
-        <file name="feats.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/feats.index" />
-        <file name="items.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/items.index" />
-        <file name="races.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/races.index" />
-        <file name="spells.index" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/indexes/spells.index" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/source.xml" />		
+		
+		<!-- classes -->
+		<file name="fighter-hellish-knight-archetype.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/classes/fighter-hellish-knight-archetype.xml" />
+
+		<!-- feats -->
+		<file name="feat-arkotropia.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-arkotropia.xml" />
+        <file name="feat-fire-avatar.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-fire-avatar.xml" />
+        <file name="feat-juggernaut.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-juggernaut.xml" />
+        <file name="feat-mateador.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-mateador.xml" />
+        <file name="feat-momentum.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-momentum.xml" />
+        <file name="feat-raised.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-raised.xml" />
+        <file name="feat-rune-mastery.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-rune-mastery.xml" />
+        <file name="feat-thrower.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-thrower.xml" />
+
+		<!-- items -->
+        <file name="custom-armors.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/custom-armors.xml" />
+        <file name="custom-instruments.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/custom-instruments.xml" />
+        <file name="custom-items.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/custom-items.xml" />
+        <file name="custom-shields.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/custom-shields.xml" />		
+        <file name="custom-weapons.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/custom-weapons.xml" />
+
+		<!-- Races -->
+        <file name="race-crossbreed-celestial-fiend.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/races/race-crossbreed-celestial-fiend.xml" />
+        <file name="race-ursine.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/races/race-ursine.xml" />
+
+		<!-- Spells -->
+        <file name="custom-spells.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/spells/custom-spells.xml" />
 	</files>
 </index>
