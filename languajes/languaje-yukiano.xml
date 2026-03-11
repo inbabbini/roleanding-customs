@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <info>
+    <name>Roleanding - Yukiano Language</name>
+    <author>Roleanding</author>
+    <version>1.0</version>
+    <update version="1.0">
+      <file name="language-yukiano.xml" url="https://www.legendkeeper.com/app/cmeyxbh7p4e8t0ilhb7xn7xxr"/>
+    </update>
+  </info>
+
+<element name="Yukiano (ponja)" type="Language" source="Roleanding-Customs" id="ID_ROLEANDING_LANGUAGE_YUKIANO">
+
+  <supports>Standard</supports>
+
+  <description>
+    <p>Lenguaje hablado en Yuki.</p>
+  </description>
+
+  <setters>
+    <set name="standard">true</set>
+    <set name="speakers">Habitantes de Yuki</set>
+    <set name="script">Yukiano</set>
+  </setters>
+
+</element>
+</elements>

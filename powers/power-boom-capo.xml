@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <element name="BOOM CAPO!" type="Power" source="Roleanding-Customs" id="ID_ROLEANDING_POWER_BOOM_CAPO">
+
+    <action type="Action"/>
+
+    <usage>
+      <limit>
+        <value>1 + proficiency</value>
+        <recovery>24 hours</recovery>
+      </limit>
+    </usage>
+
+    <description>
+
+      <p><b>Ataque:</b> 1d20 + Dex (ataque desarmado)</p>
+
+      <p><b>Daño contundente:</b> 1 + modificador de Fuerza</p>
+
+      <p><b>Daño de relámpago al objetivo:</b></p>
+
+      <p>(1 + PB)d12</p>
+
+      <p><b>Daño de relámpago al usuario:</b></p>
+
+      <p>(1 + PB)d4</p>
+
+      <p><b>Salvación:</b> Wisdom DC 19</p>
+
+      <p>Si falla queda <b>Paralyzed</b> por 1 turno.</p>
+
+    </description>
+
+    <sheet>
+
+      <description>
+        Lightning (target): (1 + PB)d12
+        Self damage: (1 + PB)d4
+        Save: WIS DC 19 or Paralyzed (1 turno)
+      </description>
+
+    </sheet>
+
+  </element>
+
+</elements>
