@@ -4,17 +4,16 @@
   <info>
     <name>Roleanding - Chiburi Feature</name>
     <description>Custom feature Chiburi for Yuki Assassin archetype.</description>
-    <author>Roleanding</author>
-    <version>1.0</version>
-    <update version="1.0">
-      <file name="feat-chiburi.xml" url="https://www.legendkeeper.com/app/cmeyxbh7p4e8t0ilhb7xn7xxr"/>
+    <author>PONCH</author>
+        <update version="1.0.0">
+      <file name="feat-chiburi.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-chiburi.xml"/>
     </update>
   </info>
 
 
   <element name="Chiburi"
            type="Archetype Feature"
-           source="Roleanding"
+           source="Roleanding Customs"
            id="ID_ROLEANDING_FEATURE_CHIBURI">
 
     <description>

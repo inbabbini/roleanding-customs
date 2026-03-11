@@ -4,32 +4,19 @@
   <info>
     <name>feat-boom-capo</name>
     <update version="1.0.0">
-      <file name="feat-boom-capo.xml" url="https://www.legendkeeper.com/app/cmeyxbh7p4e8t0ilhb7xn7xxr"/>
+      <file name="feat-boom-capo.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-boom-capo.xml"/>
     </update>
   </info>
 
-  <element name="BOOM CAPO!" type="Feat" source="Roleanding-Customs" id="ID_ROLEANDING_FEAT_BOOM_CAPO">
+  <element name="BOOM CAPO!" type="Feat" source="Roleanding Customs" id="ID_ROLEANDING_FEAT_BOOM_CAPO">
 
     <description>
 
-      <p><b>Tiempo de uso:</b> 1 action</p>
-      <p><b>Rango:</b> 5 feet</p>
-      <p><b>Target:</b> una criatura dentro del rango</p>
-      <p><b>Componentes:</b> S</p>
-      <p><b>Duracion:</b> Instantaneo</p>
-      <p><b>Clases:</b> cualquiera que cumpla las condiciones.</p>
-
-      <p>Canalizás energía eléctrica a través de tu propio cuerpo y la liberás en un golpe directo con el puño.</p>
+      <p><b>1 acción / melee attack. </b>Canalizás energía eléctrica a través de tu propio cuerpo y la liberás en un golpe directo con el puño.</p>
 
       <p>Hacés un ataque cuerpo a cuerpo sin armas contra una criatura dentro de rango.</p>
 
-      <p>Esta habilidad cuenta con cargas; las mismas se componen de la siguiente manera:</p>
-
-      <ul>
-        <li>1 carga base + bono de proficiencia</li>
-      </ul>
-
-      <p>Las cargas se recuperan tras 24 horas.</p>
+      <p>Esta habilidad cuenta con (1+proficiencia) cargas que se recuperan tras 24 horas.</p>
 
       <p>Si el ataque impacta, el objetivo recibe daño contundente normal del golpe más daño de relámpago adicional.</p>
 
@@ -65,10 +52,6 @@
         Ataque eléctrico con el puño. Lightning: (1 + PB)d12. Self damage: (1 + PB)d4.
       </description>
     </sheet>
-
-    <rules>
-      <grant type="Power" id="ID_ROLEANDING_POWER_BOOM_CAPO"/>
-    </rules>
 
   </element>
 

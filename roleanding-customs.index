@@ -13,6 +13,7 @@
 		
 		<!-- classes -->
 		<file name="class-fighter-archetype-hellish-knight.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/classes/class-fighter-archetype-hellish-knight.xml" />
+		<file name="class-rogue-archetype-yuki-assassin.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/classes/class-rogue-archetype-yuki-assassin.xml" />
 
 		<!-- feats -->
 		<file name="feat-arkotropia.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-arkotropia.xml" />
@@ -23,6 +24,8 @@
         <file name="feat-raised.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-raised.xml" />
         <file name="feat-rune-mastery.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-rune-mastery.xml" />
         <file name="feat-thrower.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-thrower.xml" />
+		<file name="feat-boom-capo.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-boom-capo.xml" />
+		<file name="feat-chiburi.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-chiburi.xml" />
 
 		<!-- items -->
         <file name="items-armors.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/items/items-armors.xml" />
@@ -37,5 +40,8 @@
 
 		<!-- Spells -->
         <file name="spells.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/spells/spells.xml" />
+
+		<!-- Languages -->
+		<file name="language-yukiano.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/languages/language-yukiano.xml" />
 	</files>
 </index>
