@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <info>
+    <name>Roleanding - Chiburi Feature</name>
+    <description>Custom feature Chiburi for Yuki Assassin archetype.</description>
+    <author>Roleanding</author>
+    <version>1.0</version>
+    <update version="1.0">
+      <file name="feat-chiburi.xml" url="https://www.legendkeeper.com/app/cmeyxbh7p4e8t0ilhb7xn7xxr"/>
+    </update>
+  </info>
+
+
+  <element name="Chiburi"
+           type="Archetype Feature"
+           source="Roleanding"
+           id="ID_ROLEANDING_FEATURE_CHIBURI">
+
+    <description>
+
+      <p><strong>Chiburi — "Sacudir la sangre"</strong></p>
+
+      <p><em>Prerequisitos: Destreza 13+, competencia con armas marciales, arma cortante.</em></p>
+
+      <p>Cuando golpeás a una criatura sorprendida con un arma cortante, debe realizar una tirada de salvación de Constitución.</p>
+
+      <p><strong>DC = 8 + tu bonificador de competencia + tu modificador de Destreza</strong></p>
+
+      <p>En una salvación fallida la criatura sufre una <strong>Herida Letal</strong>.</p>
+
+      <p><strong>Herida Letal</strong></p>
+
+      <p>La criatura comienza a desangrarse. Si la herida no es tratada dentro de <strong>3 minutos (30 turnos)</strong>, cae a <strong>0 HP</strong>.</p>
+
+      <p>Mientras esté herida:</p>
+
+      <ul>
+        <li>Tiene desventaja en tiradas de Constitución.</li>
+      </ul>
+
+      <p>La herida puede tratarse mediante:</p>
+
+      <ul>
+        <li>Lesser Restoration</li>
+        <li>Curación mayor a 15 HP</li>
+        <li>Un chequeo exitoso de Medicina</li>
+      </ul>
+
+    </description>
+
+    <sheet usage="1/Turn">
+      <description>
+When you hit a surprised creature with a slashing weapon, it must make a Constitution saving throw (DC {{chiburi:dc}}). On a failure it suffers a Mortal Wound.
+      </description>
+    </sheet>
+
+    <rules>
+
+      <stat name="chiburi:dc" value="8"/>
+      <stat name="chiburi:dc" value="proficiency" bonus="proficiency"/>
+      <stat name="chiburi:dc" value="dexterity:modifier" bonus="ability"/>
+
+    </rules>
+
+  </element>
+
+</elements>

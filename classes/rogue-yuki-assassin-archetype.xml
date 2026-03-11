@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <info>
+    <name>Roleanding - Yuki Assassin Archetype</name>
+    <description>Custom Rogue archetype replacing Death Strike with Chiburi.</description>
+    <author>Roleanding</author>
+    <version>1.3</version>
+    <update version="1.2">
+      <file name="rogue-yuki-assassin-archetype.xml" url="https://www.legendkeeper.com/app/cmeyxbh7p4e8t0ilhb7xn7xxr"/>
+    </update>
+  </info>
+
+  <element name="Yuki Assassin"
+           type="Archetype"
+           source="Roleanding"
+           id="ID_ROLEANDING_ARCHETYPE_YUKI_ASSASSIN">
+
+    <supports>Roguish Archetype</supports>
+
+    <description>
+
+      <p>Este arquetipo solo es seleccionable por Rogues que fueron entrenados en la aldea de Yuki.</p>
+
+      <p>A diferencia del Assassin clásico, esta variante es menos carismática, y emplea técnicas letales como el <strong>Chiburi</strong>.</p>
+
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BONUSPROFICIENCIES"/>
+      <div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ASSASSINATE"/>
+
+    </description>
+
+    <sheet display="false">
+      <description>Un asesino silencioso entrenado en la aldea de Yuki.</description>
+    </sheet>
+
+    <rules>
+
+  <!-- Nivel 3 -->
+  <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BONUSPROFICIENCIES" level="3"/>
+  <grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ASSASSINATE" level="3"/>
+
+  <!-- Nivel 9 -->
+  <grant type="Feat" id="ID_PHB_FEAT_ALERT" level="9"/>
+  <grant type="Feat" id="ID_PHB_FEAT_KEENMIND" level="9"/>
+
+  <!-- Nivel 13 -->
+  <grant type="Feat" id="ID_PHB_FEAT_DEFENSIVE_DUELIST" level="13"/>
+  <grant type="Feat" id="ID_PHB_FEAT_OBSERVANT" level="13"/>
+
+  <!-- Nivel 17 -->
+  <grant type="Archetype Feature" id="ID_ROLEANDING_FEATURE_CHIBURI" level="17"/>
+
+</rules>
+
+  </element>
+
+</elements>
