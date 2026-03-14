@@ -24,17 +24,19 @@
 			</description>
 			<sheet display="false" />
 			<rules>
-				<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
-				<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />
-				<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID" />
-				<grant type="Size" id="ID_SIZE_MEDIUM" />
-				<stat name="innate speed" value="30" bonus="base" />
-				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_SPEED" />
-				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARSKIN" />
-				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARS_TALENT" />
-				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_DARKVISION" />
-				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_POWERFUL_BUILD" />
-				<grant type="Grants" id="ID_INTERNAL_GRANTS_COUNTS_AS_URSINE" />
+			<grant type="Grants" id="ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_1" requirements="!ID_INTERNAL_GRANTS_URSINE_SUBRACE" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Ursine Languages" number="1" supports="Standard||Exotic" />
+			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_SPEED" />
+			<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARSKIN" />
+			<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_BEARS_TALENT" />
+			<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_DARKVISION" />
+			<grant type="Racial Trait" id="ID_CUSTOM_URSINE_RACIAL_TRAIT_URSINE_POWERFUL_BUILD" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_COUNTS_AS_URSINE" />
+			<select type="Sub Race" name="Ursine Subrace" supports="Ursine" optional="true" />
 			</rules>
 		</element>
 		
@@ -118,4 +120,156 @@
 		<element name="Ursine" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_URSINE">
 			<sheet display="false" />
 		</element>
+
+		<!-- SUBRACES -->
+		
+		<element name="Forest Ursine" type="Sub Race" source="Roleanding Customs" id="ID_CUSTOM_SUBRACE_FOREST_URSINE">
+			<supports>Ursine</supports>
+			<description>
+				<p>Forest Ursines are quick, agile black bears native to dense woodlands. They are known for their stealth, grace, and exceptional climbing abilities among the forest canopy.</p>
+				<p><strong>Ability Score Increases:</strong> Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p>
+				<p><strong>Canopy Climber:</strong> Your climbing speed doesn't reduce your movement speed, and you have advantage on Stealth checks made in forested areas.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANTS_URSINE_SUBRACE" />
+				<stat name="dexterity" value="2" bonus="racial" />
+				<stat name="wisdom" value="1" bonus="racial" />
+				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_SUBRACE_TRAIT_CANOPY_CLIMBER" />
+			</rules>
+		</element>
+
+		<element name="Canopy Climber" type="Racial Trait" source="Roleanding Customs" id="ID_CUSTOM_URSINE_SUBRACE_TRAIT_CANOPY_CLIMBER">
+			<meta>
+				<parent>Forest Ursine</parent>
+			</meta>
+			<description>
+				<html>&lt;p&gt;Your climbing speed doesn't reduce your movement speed, and you have advantage on Stealth checks made in forested areas.&lt;/p&gt;</html>
+			</description>
+			<sheet>
+				<description>Your climbing speed doesn't reduce your movement speed, and you have advantage on Stealth checks made in forested areas.</description>
+			</sheet>
+		</element>
+
+		<element name="Mountain Ursine" type="Sub Race" source="Roleanding Customs" id="ID_CUSTOM_SUBRACE_MOUNTAIN_URSINE">
+			<supports>Ursine</supports>
+			<description>
+				<p>Mountain Ursines are massive grizzly bears from the high peaks, renowned for their incredible strength and dominance. They are apex predators feared by all who encounter them.</p>
+				<p><strong>Ability Score Increases:</strong> Your Strength score increases by 2, and your Constitution score increases by 1.</p>
+				<p><strong>Apex Predator:</strong> You have advantage on Strength (Athletics) checks to grapple or shove. Additionally, when using your claws or bite as natural weapons, they deal 1d8 damage instead of 1d6.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANTS_URSINE_SUBRACE" />
+				<stat name="strength" value="2" bonus="racial" />
+				<stat name="constitution" value="1" bonus="racial" />
+				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_SUBRACE_TRAIT_APEX_PREDATOR" />
+			</rules>
+		</element>
+
+		<element name="Apex Predator" type="Racial Trait" source="Roleanding Customs" id="ID_CUSTOM_URSINE_SUBRACE_TRAIT_APEX_PREDATOR">
+			<meta>
+				<parent>Mountain Ursine</parent>
+			</meta>
+			<description>
+				<html>&lt;p&gt;You have advantage on Strength (Athletics) checks to grapple or shove. Additionally, when using your claws or bite as natural weapons, they deal 1d8 damage instead of 1d6.&lt;/p&gt;</html>
+			</description>
+			<sheet>
+				<description>You have advantage on Strength (Athletics) checks to grapple or shove. Your claws or bite natural weapons deal 1d8 damage instead of 1d6.</description>
+			</sheet>
+		</element>
+
+		<element name="Polar Ursine" type="Sub Race" source="Roleanding Customs" id="ID_CUSTOM_SUBRACE_POLAR_URSINE">
+			<supports>Ursine</supports>
+			<description>
+				<p>Polar Ursines are massive arctic hunters from the frozen wastelands. Thick fur and powerful physiology allow them to thrive in the harshest environments on the material plane.</p>
+				<p><strong>Ability Score Increases:</strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+				<p><strong>Thick Pelt:</strong> You have resistance to cold damage. You can hold your breath for a number of hours equal to your Constitution modifier (minimum 1 hour) and can swim while holding your breath.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANTS_URSINE_SUBRACE" />
+				<stat name="constitution" value="2" bonus="racial" />
+				<stat name="strength" value="1" bonus="racial" />
+				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_SUBRACE_TRAIT_THICK_PELT" />
+			</rules>
+		</element>
+
+		<element name="Thick Pelt" type="Racial Trait" source="Roleanding Customs" id="ID_CUSTOM_URSINE_SUBRACE_TRAIT_THICK_PELT">
+			<meta>
+				<parent>Polar Ursine</parent>
+			</meta>
+			<description>
+				<html>&lt;p&gt;You have resistance to cold damage. You can hold your breath for a number of hours equal to your Constitution modifier (minimum 1 hour) and can swim while holding your breath.&lt;/p&gt;</html>
+			</description>
+			<sheet>
+				<description>You have resistance to cold damage. You can hold your breath for a number of hours equal to your Constitution modifier (minimum 1 hour) and can swim while holding your breath.</description>
+			</sheet>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+			</rules>
+		</element>
+
+		<element name="Panda Ursine" type="Sub Race" source="Roleanding Customs" id="ID_CUSTOM_SUBRACE_PANDA_URSINE">
+			<supports>Ursine</supports>
+			<description>
+				<p>Panda Ursines are rare and philosophical beings who have chosen a path of harmony over conflict. Though physically powerful like their kin, they prefer wisdom, compassion, and understanding. These peaceful bears are often sought out as counsel and friends.</p>
+				<p><strong>Ability Score Increases:</strong> Your Intelligence score increases by 2, and your Charisma score increases by 1.</p>
+				<p><strong>Peaceful Nature:</strong> You have proficiency in the Insight and Animal Handling skills. Once per long rest, you can cast Goodberry at 1st level using Intelligence as your spellcasting ability, without expending a spell slot.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANTS_URSINE_SUBRACE" />
+				<stat name="intelligence" value="2" bonus="racial" />
+				<stat name="charisma" value="1" bonus="racial" />
+				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_SUBRACE_TRAIT_PEACEFUL_NATURE" />
+			</rules>
+		</element>
+
+		<element name="Peaceful Nature" type="Racial Trait" source="Roleanding Customs" id="ID_CUSTOM_URSINE_SUBRACE_TRAIT_PEACEFUL_NATURE">
+			<meta>
+				<parent>Panda Ursine</parent>
+			</meta>
+			<description>
+				<html>&lt;p&gt;You have proficiency in the Insight and Animal Handling skills. Once per long rest, you can cast &lt;em&gt;Goodberry&lt;/em&gt; at 1st level using Intelligence as your spellcasting ability, expending no spell slot.&lt;/p&gt;</html>
+			</description>
+			<sheet>
+				<description>You have proficiency in Insight and Animal Handling skills. Once per long rest, you can cast Goodberry at 1st level using Intelligence as your spellcasting ability, without expending a spell slot.</description>
+			</sheet>
+			<rules>
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING" />
+			</rules>
+		</element>
+
+		<element name="Shadow Ursine" type="Sub Race" source="Roleanding Customs" id="ID_CUSTOM_SUBRACE_SHADOW_URSINE">
+			<supports>Ursine</supports>
+			<description>
+				<p>Shadow Ursines are rare and enigmatic bears touched by shadow magic. They possess an otherworldly charm and affinity for darkness, making them mysterious and often misunderstood by their kin.</p>
+				<p><strong>Ability Score Increases:</strong> Your Charisma score increases by 2, and your Wisdom score increases by 1.</p>
+				<p><strong>Umbral Affinity:</strong> You know the Prestidigitation cantrip using Charisma as your spellcasting ability. Once per long rest, you can cast Invisibility on yourself without concentration and without expending a spell slot.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANTS_URSINE_SUBRACE" />
+				<stat name="charisma" value="2" bonus="racial" />
+				<stat name="wisdom" value="1" bonus="racial" />
+				<grant type="Racial Trait" id="ID_CUSTOM_URSINE_SUBRACE_TRAIT_UMBRAL_AFFINITY" />
+			</rules>
+		</element>
+
+		<element name="Umbral Affinity" type="Racial Trait" source="Roleanding Customs" id="ID_CUSTOM_URSINE_SUBRACE_TRAIT_UMBRAL_AFFINITY">
+			<meta>
+				<parent>Shadow Ursine</parent>
+			</meta>
+			<description>
+				<html>&lt;p&gt;You know the &lt;em&gt;Prestidigitation&lt;/em&gt; cantrip using Charisma as your spellcasting ability. Once per long rest, you can cast &lt;em&gt;Invisibility&lt;/em&gt; on yourself without concentration and without expending a spell slot.&lt;/p&gt;</html>
+			</description>
+			<sheet>
+				<description>You know the Prestidigitation cantrip. Once per long rest, you can cast Invisibility on yourself (no concentration required) without expending a spell slot.</description>
+			</sheet>
+		</element>
+
+		<!-- Ursine Subrace Grant Token -->
+		<element name="Ursine Subrace" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_URSINE_SUBRACE" />
 	</elements>

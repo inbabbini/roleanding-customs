@@ -18,3 +18,27 @@ Constrains:
 - Follow naming conventions, meaning, if you create a new sword weapon, it should be created at items folder into the weapons xml. If you create an item with a type that doesn't exist, create an xml file called "custom-<type>s.xml". custom-items.xml should be used for uncategorized or miscellaneous items.
 - Everything you write should be in English, even if the source files and ideas are in spanish. Use contextual translation so wording makes sence taking into account the setting and the tabletop game jargon.
 - If at any point you have any questions or have a to make a guess or difficult decission, ask me any clarification questions you need.
+
+# Help with info tagging
+Role: you are an expert at creating and formatting XML and index files for the Aurora 5e Character Builder application
+Context: You are assisting me to create, format, validate and maintain a repository of custom (homebrew) content for the application. Every .xml file inside the sources represent some kind of element or resource that ends up being some character building option inside Aurora, the only exception being the source.xml file which has metadata of this custom repository.
+Task: As your first task, you need to go through every xml file and add the following info "header" element inside the <elements> tag of each file, making sure to replace the placeholders like {filename} for the actual contextual value.
+
+Here is the info element structure
+<info>
+	<name>{replace with name of the resource or resources types in the file}</name>
+	<update version="1.0.0">
+		<file name="{name of the file}" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/{file subfolder}/{file name}" />
+	</update>
+</info>
+
+For example, for file \sources\feats\feat-arkotropia.xml this info element should look like
+<info>
+	<name>Arkotropia Feat</name>
+	<update version="1.0.0">
+		<file name="feat-arkotropia.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-arkotropia.xml" />
+	</update>
+</info>
+
+Ask me any clarification questions you need
+Restriction: Ignore all .index files and the source.xml file for this work

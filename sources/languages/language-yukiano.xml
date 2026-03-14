@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-
   <info>
     <name>Roleanding - Yukiano Language</name>
     <author>POCNH!</author>
@@ -9,19 +8,17 @@
     </update>
   </info>
 
-<element name="Yukiano (ponja)" type="Language" source="Roleanding Customs" id="ID_ROLEANDING_LANGUAGE_YUKIANO">
+  <element name="Yukiano (ponja)" type="Language" source="Roleanding Customs" id="ID_ROLEANDING_LANGUAGE_YUKIANO">
+    <supports>Standard</supports>
+    
+    <description>
+      <p>Lenguaje hablado en Yuki.</p>
+    </description>
+    <setters>
+      <set name="standard">true</set>
+      <set name="speakers">Habitantes de Yuki</set>
+      <set name="script">Yukiano</set>
+    </setters>
 
-  <supports>Standard</supports>
-
-  <description>
-    <p>Lenguaje hablado en Yuki.</p>
-  </description>
-
-  <setters>
-    <set name="standard">true</set>
-    <set name="speakers">Habitantes de Yuki</set>
-    <set name="script">Yukiano</set>
-  </setters>
-
-</element>
+  </element>
 </elements>
