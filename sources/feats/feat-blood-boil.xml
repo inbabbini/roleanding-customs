@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <info>
+    <name>Blood Boil Feat</name>
+    <update version="1.0.0">
+      <file name="feat-blood-boil.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-blood-boil.xml"/>
+    </update>
+  </info>
+
+  <element name="Blood Boil"
+           type="Feat"
+           source="Roleanding Customs"
+           id="ID_ROLEANDING_FEAT_BLOOD_BOIL">
+
+    <supports>Feat</supports>
+
+    <description>
+      <p>Tu sangre puede hervir dentro de tu cuerpo, empujando tus límites físicos a costa de tu propio bienestar.</p>
+
+      <p><strong>Activación:</strong> Bonus Action para prender o apagar Blood Boil.</p>
+
+      <p>Podés activar Blood Boil <strong>1 vez por Long Rest</strong> sin consecuencias.</p>
+
+      <p>Si la activás más veces, cada activación adicional te da <strong>1 nivel de Exhaustion</strong>.</p>
+
+      <p>Mientras Blood Boil esté activa, tu sangre hierve dentro del cuerpo, aumentando tu fuerza física pero castigando tu organismo.</p>
+
+      <p>Si Blood Boil permanece activa <strong>más de 1 minuto</strong>, al desactivarla ganás <strong>1 nivel de Exhaustion</strong>.</p>
+
+      <p>El daño adicional que otorga esta habilidad es <strong>daño físico</strong> y solo se aplica a <strong>ataques cuerpo a cuerpo con armas</strong>.</p>
+
+      <h5>Efectos por nivel</h5>
+
+      <p><strong>Nivel 3</strong></p>
+      <ul>
+        <li>Sumás <strong>1d4 de daño físico</strong> a cada ataque cuerpo a cuerpo con arma.</li>
+      </ul>
+
+      <p><strong>Nivel 7</strong></p>
+      <ul>
+        <li>El daño adicional pasa a <strong>1d6</strong>.</li>
+        <li>Tenés <strong>ventaja en checks de STR</strong>.</li>
+      </ul>
+
+      <p><strong>Nivel 13</strong></p>
+      <ul>
+        <li>El daño adicional pasa a <strong>1d8</strong>.</li>
+        <li>Cuando recibís un ataque, podés usar tu <strong>reacción</strong> para curarte <strong>1d6 + tu proficiency bonus</strong> puntos de vida.</li>
+      </ul>
+
+    </description>
+
+    <sheet>
+      <description>
+      <strong>Bonus Action:</strong> prender o apagar Blood Boil. 1 uso gratis por Long Rest. Activaciones extra dan 1 Exhaustion. 
+      Si permanece activa más de 1 minuto, al apagarla ganás 1 Exhaustion. 
+      Mientras esté activa sumás daño físico a ataques melee (1d4 / 1d6 / 1d8 según nivel). 
+      Nivel 7: ventaja en checks de STR
+      Nivel 13: reacción para curarte 1d6 + PB cuando recibís un ataque.
+      </description>
+    </sheet>
+
+  </element>
+
+</elements>
