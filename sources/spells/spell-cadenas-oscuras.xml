@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <info>
+    <name>Cadenas Oscuras Spell</name>
+    <update version="1.2.0">
+      <file name="spell-cadenas-oscuras.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/spells/spell-cadenas-oscuras.xml"/>
+    </update>
+  </info>
+
+  <element name="Cadenas oscuras"
+           type="Spell"
+           source="Roleanding Customs"
+           id="ID_ROLEANDING_SPELL_CADENAS_OSCURAS">
+
+    <supports>Spell</supports>
+
+    <setters>
+      <set name="level">4</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 acción</set>
+      <set name="range">30 pies</set>
+      <set name="components">V,S</set>
+      <set name="duration">Concentración, hasta 1 minuto</set>
+    </setters>
+
+    <description>
+
+      <p>Invocás cadenas hechas de energía oscura que emergen desde las sombras y se enroscan alrededor de tus enemigos.</p>
+
+      <p>Elegí una criatura visible dentro del alcance que tenga un tamaño superior al tuyo, o hasta tres criaturas que tengan tu mismo tamaño o menor.</p>
+
+      <p>Los objetivos deben realizar una tirada de salvación de <strong>Carisma</strong>.</p>
+
+      <p>Las criaturas de tamaño <strong>mayor que Large</strong> realizan esta tirada de salvación <strong>con ventaja</strong>.</p>
+
+      <p>En una salvación fallida, la criatura queda <strong>Restrained</strong> por la duración del conjuro.</p>
+
+      <p>Al final de cada turno, una criatura afectada puede repetir la tirada de salvación de Carisma. Si tiene éxito, el conjuro termina para esa criatura.</p>
+
+      <p>Cada vez que una criatura falle esta tirada de salvación mientras está atrapada por las cadenas, recibe <strong>2d8 de daño necrótico</strong>.</p>
+
+      <p>Cada vez que una criatura recibe daño por las cadenas oscuras, te curás <strong>1d4 puntos de vida</strong>.</p>
+
+      <p>Si te alejás más de <strong>60 pies</strong> de un objetivo afectado, el conjuro deja de afectarlo inmediatamente.</p>
+
+      <p><strong>En niveles superiores:</strong> Cuando lanzás este conjuro usando un slot de nivel 5 o superior, el daño aumenta en <strong>1d8</strong> por cada nivel del slot por encima de 4.</p>
+
+    </description>
+
+    <sheet>
+      <description>
+      1 criatura más grande que vos o hasta 3 de tu tamaño o menor hacen salvación de Carisma.
+      Si fallan quedan Restrained (concentración, 1 minuto).
+      Al final de cada turno repiten la salvación. Si fallan reciben 2d8 daño necrótico y vos te curás 1d4.
+      Criaturas mayores que Large tiran la salvación con ventaja.
+      Si te alejás más de 60 pies el efecto termina para ese objetivo.
+      Upcast: +1d8 daño por nivel de slot superior a 4.
+      </description>
+    </sheet>
+
+  </element>
+
+</elements>
