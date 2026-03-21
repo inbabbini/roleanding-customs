@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Fuegrone Feat</name>
+		<update version="1.0.0">
+			<file name="feat-fuegrone.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-fuegrone.xml" />
+		</update>
+	</info>
+
+	<element name="Fuegrone – Mortero" type="Feat" source="Roleanding Customs" id="ID_FEAT_FUEGRONE_MORTERO">
+
+		<description>
+			<p>Tu brazo es capaz de acumular energía y liberarla en forma de proyectiles devastadores.</p>
+
+			<p><strong>Cargas.</strong> BonusAction, podés agregar una carga al mortero, hasta un máximo de 6. Las cargas duran 24 horas.</p>
+
+			<p><strong>Disparo.</strong> Action, podés disparar hacia un punto que puedas ver dentro de un alcance de 150 pies. Mínimo 1 carga para disparar. Al hacerlo se consumen todas las cargas acumuladas.</p>
+
+			<p>Un estruendo y el zumbido cortando el aire anuncian tu disparo. El impacto explota en una esfera de 10 pies de radio con un estruendo violento y llamas oscuras.</p>
+
+			<ul>
+				<li>Cada criatura en el área debe realizar una tirada de salvación de Destreza (CD 19).</li>
+				<li>Si falla, recibe 4d12 de daño por fuego + 1d12 por cada carga consumida, es empujada hasta 15 pies y queda derribada (prone).</li>
+				<li>Si tiene éxito, recibe la mitad del daño y no es empujada ni cae prone.</li>
+			</ul>
+
+			<p>El fuego se expande alrededor de las esquinas e incendia objetos inflamables que no estén siendo llevados o equipados.</p>
+
+			<p><strong>Recoil.</strong> Al disparar el mortero, debés realizar una tirada de salvación de Constitución con CD igual a 9 + la cantidad de cargas consumidas.</p>
+
+			<ul>
+				<li>Si fallás, obtenés el estado Hombro dislocado hasta que sea tratado.</li>
+				<li>Si tenés éxito, no sufrís efectos adversos.</li>
+			</ul>
+
+		</description>
+
+		<sheet>
+			<description>
+				Bonus Action: ganar carga (máx. 6, duran 24h). Action: disparo 150 ft (consume todas).
+				Área 10 ft. DEX CD 19: 4d12 + 1d12/carga, push 15 ft + prone (mitad sin efectos).
+				CON save (9 + cargas) o Hombro dislocado.
+			</description>
+		</sheet>
+
+	</element>
+
+</elements>

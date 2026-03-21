@@ -153,12 +153,12 @@
 		<description>
 			<p>At 10th level, the infernal power coursing through you becomes visible to all. Your very presence becomes an extension of your combat mastery.</p>
 			<h5 class="caption">BLAZING AURA</h5>
-			<p>Your Hellish Presence aura can now activate at no action cost. Additionally, the aura's damage radius increases to 10 feet, and creatures that are immune to fire take half damage from the aura instead of being immune to it in this context.</p>
+			<p>Your Hellish Presence aura can now activate at no action cost. Additionally, the aura's damage radius increases to 10 feet.</p>
 			<h5 class="caption">INFERNAL RESILIENCE</h5>
 			<p>When you finish a short rest, you can spend Hit Die and regain hit points as you draw infernal energy from nearby flames, campfires, torches, or other fire sources (even if you created them with a spell). Add your Wisdom modifier ({{wisdom:modifier}}) to each hit die result restored this way if a fire source was consumed for the die. Additionally, you gain temporary hit points equal to your proficiency bonus ({{proficiency}}) at the start of each turn while your Hellish Presence aura is active, losing them when the aura ends.</p>
 		</description>
 		<sheet>
-			<description>Hellish Presence activation at no cost (10-ft radius). Creatures with fire immunity take half damage from aura. On short rest, spent Hit Die regain HP + {{wisdom:modifier}} if a nearby flame is consumed for the die. Gain {{proficiency}} temp HP each turn while aura active, lose them when aura ends.</description>
+			<description>Hellish Presence activation at no cost (10-ft radius). On short rest, spent Hit Die regain HP + {{wisdom:modifier}} if a nearby flame is consumed for the die. Gain {{proficiency}} temp HP each turn while aura active, lose them when aura ends.</description>
 		</sheet>
 	</element>
 
