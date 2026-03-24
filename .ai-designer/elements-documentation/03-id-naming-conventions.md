@@ -1,0 +1,201 @@
+# ID Naming Conventions
+
+Element IDs must be globally unique. The standard format is:
+
+```
+ID_{AUTHOR}_{SOURCE}_{TYPE}_{NAME}
+```
+
+## Rules
+- Start with `ID_`
+- Use only uppercase letters, numbers, and underscores
+- No spaces, hyphens, or special characters
+- Replace spaces in names with underscores
+- Omit articles ("the", "a", "of") when practical, but keep them if the name is ambiguous
+
+## Author Abbreviations
+
+### Reserved (Official)
+| Author | Abbreviation |
+|--------|-------------|
+| Wizards of the Coast | `WOTC` |
+| DMs Guild | `DMSG` |
+| Critical Role | `CRIT` |
+| Mage Hand Press | `MHP` |
+| Kobold Press | `KBP` |
+| D&D Wiki | `WIKI` |
+| Reddit Homebrew | `RDDT` |
+| Genuine Fantasy Press | `GFP` |
+| Internal/Core | (omitted or `INTERNAL`) |
+
+### Custom Homebrew
+For homebrew content, choose a unique abbreviation that won't conflict. Example patterns:
+- Personal: Use your name/handle abbreviation
+- Campaign: Use campaign name abbreviation
+
+## Source Abbreviations (Common)
+| Source | Abbreviation |
+|--------|-------------|
+| Player's Handbook | `PHB` |
+| Dungeon Master's Guide | `DMG` |
+| Monster Manual | `MM` |
+| Xanathar's Guide to Everything | `XGTE` |
+| Tasha's Cauldron of Everything | `TCOE` |
+| Volo's Guide to Monsters | `VGM` |
+| Sword Coast Adventurer's Guide | `SCAG` |
+| Eberron: Rising from the Last War | `ERLW` |
+| Fizban's Treasury of Dragons | `FTD` |
+| Mordenkainen's Tome of Foes | `MTOF` |
+
+## Type Abbreviations in IDs
+
+IDs don't always use formal type names. Common patterns:
+
+| Type | ID Pattern |
+|------|-----------|
+| Race | `_RACE_` |
+| Sub Race | `_SUBRACE_` or `_SUB_RACE_` |
+| Racial Trait | `_RACIAL_TRAIT_` |
+| Class | `_CLASS_` |
+| Class Feature | `_CLASS_FEATURE_` |
+| Archetype | `_ARCHETYPE_` |
+| Archetype Feature | `_ARCHETYPE_FEATURE_` |
+| Feat | `_FEAT_` |
+| Feat Feature | `_FEAT_` (same parent as feat) |
+| Spell | `_SPELL_` |
+| Background | `_BACKGROUND_` |
+| Background Feature | `_BACKGROUND_FEATURE_` |
+| Language | `_LANGUAGE_` |
+| Proficiency | `_PROFICIENCY_` |
+| Weapon | `_WEAPON_` |
+| Armor | `_ARMOR_` |
+| Item | `_ITEM_` |
+| Magic Item | `_MAGIC_ITEM_` |
+| Companion | `_COMPANION_` |
+| Option | `_OPTION_` |
+| Grants (internal) | `_INTERNAL_FEATURE_REPLACEMENT_` or `_INTERNAL_GRANT_` |
+
+## Examples by Type
+
+### Races
+```
+ID_SRD_RACE_DWARF
+ID_WOTC_PHB_RACE_TIEFLING
+ID_SUB_RACE_HILL_DWARF
+ID_SUB_RACE_MOUNTAIN_DWARF
+ID_RACIAL_TRAIT_DWARVEN_RESILIENCE
+ID_RACIAL_TRAIT_DWARVEN_TOUGHNESS
+```
+
+### Classes
+```
+ID_WOTC_PHB_CLASS_FIGHTER
+ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE
+ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND
+ID_WOTC_PHB_CLASS_FEATURE_ACTIONSURGE
+ID_WOTC_PHB_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER
+```
+
+### Archetypes
+```
+ID_WOTC_PHB_ARCHETYPE_CHAMPION
+ID_WOTC_PHB_ARCHETYPE_FIGHTER_ELDRITCH_KNIGHT
+ID_WOTC_PHB_ARCHETYPE_FEATURE_IMPROVEDCRITICAL
+ID_WOTC_PHB_ARCHETYPE_FEATURE_ELDRITCH_KNIGHT_SPELLCASTING
+```
+
+### Feats
+```
+ID_PHB_FEAT_ALERT
+ID_PHB_FEAT_ACTOR
+ID_PHB_FEAT_ELEMENTAL_ADEPT
+ID_PHB_FEAT_ELEMENTAL_ADEPT_FIRE  (feat feature sub-option)
+```
+
+### Spells
+```
+ID_PHB_SPELL_ACID_SPLASH
+ID_PHB_SPELL_FIREBALL
+ID_PHB_SPELL_MAGE_ARMOR
+ID_XGTE_SPELL_CONTROL_FLAMES
+```
+
+### Items
+```
+ID_WOTC_PHB_WEAPON_LONGSWORD
+ID_WOTC_PHB_WEAPON_DAGGER
+ID_WOTC_ARMOR_LIGHT_LEATHER
+ID_WOTC_ARMOR_HEAVY_PLATE
+ID_WOTC_PHB_ITEM_ABACUS
+ID_WOTC_DMG_MAGIC_ITEM_BAG_OF_HOLDING
+ID_WOTC_DMG_MAGIC_ITEM_WEAPON_1
+ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_HEALING
+```
+
+### Backgrounds
+```
+ID_BACKGROUND_ACOLYTE
+ID_BACKGROUND_FEATURE_SHELTER_OF_THE_FAITHFUL
+```
+
+### Languages
+```
+ID_LANGUAGE_COMMON
+ID_LANGUAGE_DWARVISH
+ID_LANGUAGE_ELVISH
+```
+
+### Proficiencies
+```
+ID_PROFICIENCY_SKILL_ACROBATICS
+ID_PROFICIENCY_SKILL_PERCEPTION
+ID_PROFICIENCY_SAVINGTHROW_STRENGTH
+ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR
+ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS
+ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS
+```
+
+### Internal
+```
+ID_INTERNAL_GRANT_MULTICLASS
+ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE
+ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE
+ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT
+ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON
+ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_SECOND_WIND
+ID_SIZE_MEDIUM
+ID_SIZE_SMALL
+ID_VISION_DARKVISION
+ID_VISION_SUPERIORDARKVISION
+```
+
+### Weapon/Armor Internal IDs (for supports)
+```
+ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE
+ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED
+ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE
+ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED
+ID_INTERNAL_DAMAGE_TYPE_SLASHING
+ID_INTERNAL_DAMAGE_TYPE_PIERCING
+ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING
+ID_INTERNAL_WEAPON_PROPERTY_FINESSE
+ID_INTERNAL_WEAPON_PROPERTY_LIGHT
+ID_INTERNAL_WEAPON_PROPERTY_HEAVY
+ID_INTERNAL_WEAPON_PROPERTY_THROWN
+ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED
+ID_INTERNAL_WEAPON_PROPERTY_VERSATILE
+ID_INTERNAL_WEAPON_PROPERTY_REACH
+ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION
+ID_INTERNAL_WEAPON_PROPERTY_LOADING
+ID_INTERNAL_WEAPON_GROUP_SWORDS
+ID_INTERNAL_WEAPON_GROUP_AXES
+ID_INTERNAL_WEAPON_GROUP_HAMMERS
+ID_INTERNAL_WEAPON_GROUP_BOWS
+ID_INTERNAL_WEAPON_GROUP_CROSSBOWS
+ID_INTERNAL_WEAPON_GROUP_SPEARS
+ID_INTERNAL_WEAPON_GROUP_CLUBS
+ID_INTERNAL_WEAPON_GROUP_MACES
+ID_INTERNAL_ARMOR_GROUP_LIGHT
+ID_INTERNAL_ARMOR_GROUP_MEDIUM
+ID_INTERNAL_ARMOR_GROUP_HEAVY
+```
