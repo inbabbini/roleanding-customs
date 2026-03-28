@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Triskel Bloodline</name>
+		<update version="1.0.0">
+			<file name="race-variant-noguiujyblood.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/triskel/triskel.xml" />
+		</update>
+	</info>
+
+	<!-- ===================== -->
+	<!-- 🧬 RACE VARIANT -->
+	<!-- ===================== -->
+
+	<element name="Triskel Bloodline" type="Race Variant" source="Roleanding Customs" id="ID_RACE_VARIANT_TRISKEL">
+
+		<supports>Human</supports>
+
+		<description>
+			<p>Algunos linajes portan la marca invisible de Kuro Noguiujy. En ellos despierta el Triskel: una manifestación ocular capaz de percibir y alterar la realidad a través de energías prohibidas.</p>
+
+			<p>El Triskel evoluciona con su portador, desbloqueando habilidades cada vez más peligrosas. Su uso excesivo tiene consecuencias físicas severas.</p>
+
+			<p>Si tu personaje posee el Triskel, obtenés los siguientes rasgos:</p>
+			<ul>
+				<li><strong>Ojos con Triskel.</strong> Accedés a habilidades especiales que escalan con tu nivel.</li>
+				<li><strong>Represalias.</strong> Forzar el uso del Triskel genera exhaustion sin límite.</li>
+			</ul>
+
+			<p>Obtenes los siguientes beneficios:</p>
+			<ul>
+				<li>+2 a Destreza.</li>
+				<li>+1 a Inteligencia.</li>
+				<li>Tu velocidad base es de 35 pies.</li>
+			</ul>
+
+		</description>
+
+		<sheet alt="Human (Triskel)" display="false" />
+
+		<rules>
+			<grant type="Dragonmark" id="ID_WOTC_ERLW_DRAGONMARK_MARK_OF_PASSAGE" />
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+
+			<stat name="speed" value="35"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRISKEL_CORE" level="1"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRISKEL_LV1" level="1"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRISKEL_LV3_SUBSTITUTION" level="3"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRISKEL_LV7" level="7"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRISKEL_LV13" level="13"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRISKEL_LV20" level="20"/>
+		</rules>
+
+	</element>
+
+
+	<!-- ===================== -->
+	<!-- 🧿 CORE (REPRESALIAS) -->
+	<!-- ===================== -->
+
+	<element name="Ojos con Triskel" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_TRISKEL_CORE">
+
+		<description>
+			<p>El Triskel te permite acceder a habilidades que evolucionan con vos.</p>
+
+			<p><strong>Represalias.</strong> Cada vez que utilizás una habilidad del Triskel más veces de las permitidas, obtenés 1 nivel de exhaustion. Este efecto no tiene límite, pudiendo llevar a tu muerte.</p>
+		</description>
+
+		<sheet>
+			<description>
+				Poderes del Triskel escalan por nivel. Usos extra generan exhaustion.
+			</description>
+		</sheet>
+
+	</element>
+
+
+	<!-- ===================== -->
+	<!-- 👁️ NIVEL 1 -->
+	<!-- ===================== -->
+
+	<element name="Triskel Percepción de Energía" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_TRISKEL_LV1">
+
+		<description>
+			<p>Podés activar el Triskel para percibir las fluctuaciones de energía de las criaturas.</p>
+
+			<p>Podés usar esta habilidad hasta 3 veces por día sin sufrir represalias.</p>
+
+			<ul>
+				<li>Detectás criaturas con energía dentro de 30 pies.</li>
+				<li>Podés estimar la intensidad relativa de su poder.</li>
+			</ul>
+
+			<p>El Triskel clasifica la energía en categorías relativas a tu propio poder:</p>
+
+			<ul>
+				<li><strong>Commoner</strong></li>
+				<li><strong>Soldado</strong></li>
+				<li><strong>Picante</strong></li>
+				<li><strong>Rotardo</strong></li>
+			</ul>
+		</description>
+
+		<sheet usage="3/Day">
+			<description>
+				Percibís energía en 30 ft y su intensidad relativa (Commoner → Rotardo).
+			</description>
+		</sheet>
+
+	</element>
+
+	<element name="Sustitución" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_TRISKEL_LV3_SUBSTITUTION">
+		<description>
+			<p>Podés usar tu reacción para teletransportarte hasta 9 metros (30 pies) a un espacio desocupado que puedes ver. Recuperas la habilidad cuando terminas un descanso corto. Destreza es tu habilidad de lanzamiento para este hechizo.</p>
+		</description>
+		<sheet usage="2/Short Rest">
+			<description>Reaction: Podés teletransportarte hasta 9 metros (30 pies) a un espacio desocupado que puedes ver. Habilidad de lanzamiento: Destreza</description>
+		</sheet>
+	</element>
+
+
+	<!-- ===================== -->
+	<!-- 🔥 NIVEL 7 -->
+	<!-- ===================== -->
+
+	<element name="Triskel Fuego de Murar" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_TRISKEL_LV7">
+
+		<prerequisite>Level 7</prerequisite>
+
+		<description>
+			<p>Podés invocar llamas negras que consumen todo aquello que alcanzan.</p>
+
+			<p>Como acción, realizás un ataque de conjuro a distancia contra una criatura u objeto que puedas ver.</p>
+
+			<ul>
+				<li>En caso de impactar, el objetivo comienza a arder.</li>
+				<li>Al inicio de cada turno del objetivo, recibe 4d10 de daño por fuego.</li>
+				<li>El efecto dura hasta que el objetivo sea consumido o disipado.</li>
+			</ul>
+
+			<p>El fuego no puede ser extinguido por medios convencionales ni se propaga por contacto.</p>
+
+			<p>Este uso siempre genera represalias.</p>
+		</description>
+
+		<sheet>
+			<description>
+				Action: Ranged Spell Attack. Impacto: 4d10 fuego/turno hasta consumir. Genera exhaustion.
+			</description>
+		</sheet>
+
+	</element>
+
+
+	<!-- ===================== -->
+	<!-- 👁️ NIVEL 13 -->
+	<!-- ===================== -->
+
+	<element name="Triskel – Percepción Absoluta e Izanagui" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_TRISKEL_LV13">
+
+		<prerequisite>Character Level 13</prerequisite>
+
+		<description>
+			<p>Tu Triskel alcanza un nivel superior de percepción y control.</p>
+
+			<ul>
+				<li>Podés detectar criaturas de categoría Picante o Rotardo en un radio de hasta 10 kilómetros.</li>
+			</ul>
+
+			<p><strong>Izanagui.</strong> Podés sumir a una criatura que tenga contacto directo con tus ojos en un estado onírico profundo.</p>
+
+			<ul>
+				<li>La criatura debe realizar una tirada de salvación de Sabiduría o Carisma (tu elección).</li>
+				<li>En caso de fallar, queda atrapada en un sueño del cual no puede despertar.</li>
+				<li>El efecto solo puede terminarse mediante magia equivalente a un conjuro de nivel 9 o superior.</li>
+			</ul>
+
+			<p>Al salir del efecto, la criatura puede ver alterado su alineamiento.</p>
+
+			<p>Este uso siempre genera represalias.</p>
+		</description>
+
+		<sheet>
+			<description>
+				Detección 10 km (Picante/Rotardo). Izanagui: save WIS/CHA o sueño permanente (dispel lvl 9).
+			</description>
+		</sheet>
+
+	</element>
+
+
+	<!-- ===================== -->
+	<!-- 👁️ NIVEL 20 -->
+	<!-- ===================== -->
+
+	<element name="Triskel – Izanagui Supremo" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_TRISKEL_LV20">
+
+		<prerequisite>Level 20</prerequisite>
+
+		<description>
+			<p>Dominás el Triskel a un nivel absoluto.</p>
+
+			<p>Una vez por día, podés utilizar Izanagui sin necesidad de contacto visual con los ojos del objetivo.</p>
+		</description>
+
+		<sheet usage="1/Day">
+			<description>
+				Izanagui sin contacto visual (1/día).
+			</description>
+		</sheet>
+
+	</element>
+
+</elements>

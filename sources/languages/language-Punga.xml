@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <info>
+    <name>Roleanding - Punga Language</name>
+    <author>POCNH!</author>
+      <update version="1.0.0">
+      <file name="language-punga.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/languages/language-punga.xml"/>
+    </update>
+  </info>
+
+<element name="Punga" type="Language" source="Roleanding Customs" id="ID_ROLEANDING_LANGUAGE_PUNGA">
+
+  <supports>Standard</supports>
+
+  <description>
+    <p>Lenguaje hablado por los Pungas.</p>
+  </description>
+
+  <setters>
+    <set name="standard">true</set>
+    <set name="speakers">Pungas</set>
+    <set name="script">Punga</set>
+  </setters>
+
+</element>
+</elements>

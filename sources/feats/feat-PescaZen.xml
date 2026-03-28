@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>	
+	<info>
+		<name>Pesca Zen</name>
+		<update version="1.0.0">
+			<file name="feat-pescazen.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-pescazen.xml" />
+		</update>
+	</info>
+
+	<element name="Pesca Zen" type="Feat" source="Roleanding Customs" id="ID_FEAT_PESCA_ZEN">
+		<description>
+			<p>Sos un maestro de la artes de la inmovilidad, capaz de mover tu cuerpo con la velocidad de un pensamiento. Al entrar en un estado de calma perfecta, desatas un movimiento explosivo.</p>
+			<ul>
+				<li>Si respetas la metodología Zen a la hora de pescar, agregás 1d4 a los checks que hagas para esto.</li>
+			</ul>
+			<p><strong>Focus:</strong>Si meditaste antes de hacerlo, el dado pasa a ser 1d8.</p>
+		</description>
+		<sheet>
+			<description>Suma 1d4 para los checks de pescar. 1d8 si meditaste.</description>
+		</sheet>
+	</element>
+</elements>
+
