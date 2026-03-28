@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Iaijutsu Feat</name>
+		<update version="1.1.0">
+			<file name="feat-iaijutsu.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-iaijutsu.xml" />
+		</update>
+	</info>
+
+	<element name="Iaijutsu – La intención por sobre el impacto" type="Feat" source="Roleanding Customs" id="ID_FEAT_IAIJUTSU">
+		
+		<description>
+			<p><strong>Prerrequisitos:</strong> Rogue o Fighter, nivel 17 o superior, Destreza 13 o superior, competencia con armas marciales, katana.</p>
+			<p>Te instruiste en el arte del iaijutsu: cada movimiento es una decisión absoluta. No hay intercambio de golpes, solo resolución.</p>
+			<p>Obtenés las siguientes técnicas:</p>
+			<ul>
+				<li><strong>Tachiai</strong></li>
+				<li><strong>Iai-goshi</strong></li>
+				<li><strong>Desenvainado Fluido</strong></li>
+			</ul>
+		</description>
+
+		<sheet>
+			<description>
+				Accedés a técnicas de Iaijutsu: Tachiai (ataque a 10 ft con reposicionamiento), Iai-goshi (ataques desde reposo con sorpresa) y desenvainado fluido.
+			</description>
+		</sheet>
+
+		<rules>
+			<grant type="Feature" id="ID_FEAT_IAIJUTSU_TACHIAI" />
+			<grant type="Feature" id="ID_FEAT_IAIJUTSU_IAI_GOSHI" />
+			<grant type="Feature" id="ID_FEAT_IAIJUTSU_DRAW" />
+		</rules>
+
+	</element>
+  
+ <element name="Tachiai – Alcance del Primer Paso" type="Feat" source="Roleanding Customs" id="ID_FEAT_IAIJUTSU_TACHIAI">
+
+	<prerequisite>~Iaijutsu Internal~</prerequisite>
+
+	<description>
+		<p>Mientras estés de pie y empuñes una katana enfundada, podés realizar ataques cuerpo a cuerpo contra criaturas a hasta 10 pies.</p>
+		<p><strong>La katana debe estar enfundada al inicio del ataque.</strong></p>
+		<ul>
+			<li>Este ataque cuenta como un ataque cuerpo a cuerpo a todos los efectos.</li>
+			<li>No podés usar este beneficio si tenés desventaja en la tirada de ataque.</li>
+			<li>Si realizás el ataque desde 10 pies, tenés ventaja.</li>
+			<li>Luego del ataque, te movés hasta 5 pies detrás del objetivo.</li>
+		</ul>
+	</description>
+
+	<sheet>
+		<description>
+			Katana enfundada: ataque melee a 10 ft, ventaja si es a 10 ft. Reposicionamiento 5 ft detrás.
+		</description>
+	</sheet>
+
+</element>
+
+<element name="Iai-goshi – Muerte desde la Quietud" type="Feat" source="Roleanding Customs" id="ID_FEAT_IAIJUTSU_IAI_GOSHI">
+
+	<prerequisite>~Iaijutsu Internal~</prerequisite>
+
+	<description>
+		<p>Si estás sentado, arrodillado o en aparente reposo y una criatura no percibe tu intención hostil, tu ataque cuenta como sorpresa.</p>
+		<p><strong>La katana debe estar enfundada al inicio del ataque.</strong></p>
+		<ul>
+			<li>El ataque se realiza con ventaja.</li>
+			<li>Permite aplicar Sneak Attack, Assassinate y habilidades similares.</li>
+		</ul>
+	</description>
+
+	<sheet>
+		<description>
+			Desde reposo y sin levantar sospechas: el ataque cuenta como sorpresa (ventaja). Requiere katana enfundada.
+		</description>
+	</sheet>
+
+</element>
+ 
+<element name="Desenvainado Fluido" type="Feat" source="Roleanding Customs" id="ID_FEAT_IAIJUTSU_DRAW">
+
+	<prerequisite>~Iaijutsu Internal~</prerequisite>
+
+	<description>
+		<p>Podés desenvainar tu katana como parte del ataque, sin gastar tu interacción con objetos.</p>
+	</description>
+
+	<sheet>
+		<description>
+			Desenvainar katana es parte del ataque (no consume interacción).
+		</description>
+	</sheet>
+
+</element>
+</elements>

@@ -2,7 +2,7 @@
 <elements>	
 	<info>
 		<name>Crossbreed Celestial/Fiend Race</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="race-crossbreed-celestial-fiend.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/races/race-crossbreed-celestial-fiend.xml" />
 		</update>
 	</info>
@@ -61,7 +61,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			<grant type="Grants" id="ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_1" />
 		</rules>
 	</element>
 	<element name="Duplicity" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_DUPLICITY">

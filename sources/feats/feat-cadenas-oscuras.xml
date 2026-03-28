@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <info>
+    <name>Feat - Cadenas Oscuras</name>
+    <update version="1.0.0">
+      <file name="feat-cadenas-oscuras.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/feats/feat-cadenas-oscuras.xml"/>
+    </update>
+  </info>
+
+  <element name="Cadenas oscuras"
+           type="Feat"
+           source="Roleanding Customs"
+           id="ID_ROLEANDING_FEAT_CADENAS_OSCURAS">
+
+    <supports>Feat</supports>
+
+    <description>
+
+      <p>Aprendiste a invocar cadenas hechas de energía oscura que emergen desde las sombras para aprisionar a tus enemigos.</p>
+
+      <p>Podés lanzar el conjuro <strong>Cadenas oscuras</strong> <strong>una vez por Short Rest</strong> sin gastar un slot de spell.</p>
+
+      <p>Tu característica de lanzamiento para este conjuro es la misma que utilices normalmente para lanzar hechizos. Si no poseés spellcasting, utilizás <strong>Carisma</strong> como característica de conjuro.</p>
+
+    </description>
+
+    <sheet>
+      <description>
+      Podés lanzar Cadenas oscuras 1 vez por Short Rest sin gastar spell slot.
+      </description>
+    </sheet>
+
+    <rules>
+      <grant type="Spell" id="ID_ROLEANDING_SPELL_CADENAS_OSCURAS"/>
+    </rules>
+
+  </element>
+
+</elements>
