@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <info>
+    <name>Roleanding - Mat-Turiano Language</name>
+    <author>POCNH!</author>
+      <update version="1.0.0">
+      <file name="language-mat-turiano.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/languages/language-mat-turiano.xml"/>
+    </update>
+  </info>
+
+<element name="Mat-Turiano" type="Language" source="Roleanding Customs" id="ID_ROLEANDING_LANGUAGE_MAT_TURIANO">
+
+  <supports>Standard</supports>
+
+  <description>
+    <p>Lenguaje hablado en Mat-Tur.</p>
+  </description>
+
+  <setters>
+    <set name="standard">true</set>
+    <set name="speakers">Habitantes de Mat-Tur</set>
+    <set name="script">Mat-Tur</set>
+  </setters>
+
+</element>
+</elements>

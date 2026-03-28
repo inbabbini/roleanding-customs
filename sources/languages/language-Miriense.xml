@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <info>
+    <name>Roleanding - Miriense Language</name>
+    <author>POCNH!</author>
+      <update version="1.0.0">
+      <file name="language-miriense.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/languages/language-miriense.xml"/>
+    </update>
+  </info>
+
+<element name="Miriense" type="Language" source="Roleanding Customs" id="ID_ROLEANDING_LANGUAGE_MIRIENSE">
+
+  <supports>Standard</supports>
+
+  <description>
+    <p>Lenguaje antiguo, otrora hablado en Miria.</p>
+  </description>
+
+  <setters>
+    <set name="standard">true</set>
+    <set name="speakers">Habitantes de Miria</set>
+    <set name="script">Miriense</set>
+  </setters>
+
+</element>
+</elements>

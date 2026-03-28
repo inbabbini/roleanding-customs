@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Altered Human</name>
+		<update version="1.0.0">
+			<file name="race-variant-altered-human.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/races/altered-human.xml" />
+		</update>
+	</info>
+
+	<!-- ===================== -->
+	<!-- 🧬 RACE VARIANT -->
+	<!-- ===================== -->
+
+	<element name="Humano Alterado" type="Race Variant" source="Roleanding Customs" id="ID_RACE_VARIANT_ALTERED_HUMAN">
+
+		<supports>Human</supports>
+
+		<description>
+			<p>Tu cuerpo fue alterado más allá de los límites naturales. Tus huesos y fluidos se convierten en armas, respondiendo a tu voluntad.</p>
+
+			<ul>
+				<li>+2 a Destreza.</li>
+				<li>+1 a Fuerza.</li>
+			</ul>
+			
+			<p>A medida que vas subiendo niveles ganás:</p>
+			<ul>
+				<li>Crear y lanzar "huesos".</li>
+				<li>Escupir ácido.</li>
+				<li>Mímesis.</li>
+				<li>Blood Boil.</li>
+			</ul>
+
+		</description>
+
+		<sheet alt="Human (Alterado)" display="false" />
+
+		<rules>
+			<grant type="Dragonmark" id="ID_WOTC_ERLW_DRAGONMARK_MARK_OF_PASSAGE" />
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+
+			<!-- Tus traits -->
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_GARZO" level="1"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HUESOS_CHICOS" level="1"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HUESO_GRANDE" level="1"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MIMESIS" level="3"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BLOOD_BOIL" level="3"/>
+		</rules>
+
+	</element>
+
+
+	<!-- ===================== -->
+	<!-- 🧪 GARZO -->
+	<!-- ===================== -->
+
+	<element name="Garzo" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_GARZO">
+
+		<description>
+			<p>Podés escupir una sustancia corrosiva como acción, realizando un ataque a distancia.</p>
+
+			<ul>
+				<li>Daño: 1d4 (nivel 1), 2d4 (nivel 5), 3d4 (nivel 11), 4d4 (nivel 17).</li>
+				<li>El objetivo debe realizar una tirada de salvación de Destreza.</li>
+				<li>Si falla, el ácido permanece y recibe 1d4 de daño por turno.</li>
+				<li>Puede usar una bonus action para remover el ácido.</li>
+			</ul>
+		</description>
+
+		<sheet>
+			<description>
+				Action: Ranged spell attack. Daño escalable + ácido persistente (1d4/turno, removible con BA).
+			</description>
+		</sheet>
+
+	</element>
+
+
+	<!-- ===================== -->
+	<!-- 🦴 HUESOS CHICOS -->
+	<!-- ===================== -->
+
+	<element name="Huesos Chicos" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_HUESOS_CHICOS">
+
+		<description>
+			<p>Como bonus action, podés extraer un hueso pequeño y lanzarlo como ataque a distancia usando Destreza.</p>
+
+			<ul>
+				<li>Daño: 1d6 + modificador de Destreza (perforante).</li>
+				<li>Podés generar múltiples huesos según tu nivel:</li>
+				<li>2 huesos (nivel 5), 3 (nivel 11), 4 (nivel 17).</li>
+			</ul>
+		</description>
+
+		<sheet>
+			<description>
+				BA: ataque a distancia 1d6 + DEX. Cantidad escala con nivel.
+			</description>
+		</sheet>
+
+	</element>
+
+
+	<!-- ===================== -->
+	<!-- 🦴 HUESO GRANDE -->
+	<!-- ===================== -->
+
+	<element name="Hueso Grande" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_HUESO_GRANDE">
+
+		<description>
+			<p>Como bonus action, podés extraer un hueso grande de tu cuerpo.</p>
+
+			<ul>
+				<li>Puede ser lanzado (ataque a distancia): 1d10 + DEX.</li>
+				<li>O usado como lanza en combate cuerpo a cuerpo (sos competente).</li>
+				<li>Usar el arma requiere una acción adicional luego de extraerla.</li>
+			</ul>
+		</description>
+
+		<sheet>
+			<description>
+				BA: crear hueso. Luego Action: 1d10 + DEX (ranged o melee como lanza).
+			</description>
+		</sheet>
+
+	</element>
+
+
+	<!-- ===================== -->
+	<!-- 🧪 Mímesis -->
+	<!-- ===================== -->
+
+	<element name="Mímesis" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_MIMESIS">
+
+		<prerequisite>Level 3</prerequisite>
+
+		<description>
+			<p>Tu piel y tus escamas cambian de color según el entorno que te rodea. Obtenés ventaja en tiradas de sigilo (Stealth) y las criaturas tienen desventaja en tiradas para percibirte con la vista.</p>
+
+			<ul>
+				<li>1 Acción</li>
+				<li>Sobre vos mismo</li>
+				<li>Duración: Concentración, hasta 1 hora.</li>
+			</ul>
+		</description>
+
+		<sheet>
+			<description>
+				Action: ventaja en Stealth y desventaja para verte. Concentración, hasta 1 hora.
+			</description>
+		</sheet>
+
+	</element>
+
+	<!-- ===================== -->
+	<!-- 🩸 BLOOD BOIL (LV3) -->
+	<!-- ===================== -->
+
+	<element name="Blood Boil" type="Racial Trait" source="Roleanding Customs" id="ID_RACIAL_TRAIT_BLOOD_BOIL">
+
+		<prerequisite>Level 3</prerequisite>
+
+		<description>
+			<p>Podés forzar tu sangre a un estado de ebullición, amplificando tu poder físico.</p>
+
+			<p>Activar o desactivar esta habilidad requiere una bonus action.</p>
+
+			<ul>
+				<li>Tenés ventaja en tiradas de Fuerza.</li>
+				<li>Agregás 1d6 (1d8 a lvl 11, y 1d10 a lvl 17) al daño de tus ataques.</li>
+				<li>Cuando recibís daño, podés usar tu reacción para curarte 1d6 + tu bonificador de competencia.</li>
+			</ul>
+
+			<p><strong>Usos y represalias:</strong></p>
+			<ul>
+				<li>1 uso por día sin consecuencias.</li>
+				<li>Segundo uso: tirás una moneda; si fallás, ganás 1 nivel de exhaustion.</li>
+				<li>Tercer uso o más: siempre genera exhaustion.</li>
+			</ul>
+		</description>
+
+		<sheet>
+			<description>
+				BA toggle. STR advantage, +1d6 daño (1d8 a lvl 11, y 1d10 a lvl 17), reacción: heal 1d6+PB. Overuse: exhaustion.
+			</description>
+		</sheet>
+
+	</element>
+
+</elements>

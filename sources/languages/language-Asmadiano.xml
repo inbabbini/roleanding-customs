@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <info>
+    <name>Roleanding - Asmadiano Language</name>
+    <author>POCNH!</author>
+      <update version="1.0.0">
+      <file name="language-asmadiano.xml" url="https://raw.githubusercontent.com/inbabbini/roleanding-customs/main/sources/languages/language-asmadiano.xml"/>
+    </update>
+  </info>
+
+<element name="Asmadiano" type="Language" source="Roleanding Customs" id="ID_ROLEANDING_LANGUAGE_ASMADIANO">
+
+  <supports>Standard</supports>
+
+  <description>
+    <p>Lenguaje antiguo, otrora hablado en Asmad.</p>
+  </description>
+
+  <setters>
+    <set name="standard">true</set>
+    <set name="speakers">Habitantes de Asmad</set>
+    <set name="script">Asmadiano</set>
+  </setters>
+
+</element>
+</elements>
